@@ -38,7 +38,7 @@
     text-decoration: none;
     font-size: 20px;
 }
-.btn-primary{
+.primary-btn{
  padding: 1.3em 3em;
  text-transform: uppercase;
  letter-spacing: 2.5px;
@@ -52,12 +52,12 @@
  cursor: pointer;
  outline: none;
 }
-.btn-primary:hover{
+.primary-btn:hover{
  background-color: #2EE59D;
  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
  color: #fff;
  transform: translateY(-7px);
 }
-.btn-primary:active{
+.primary-btn:active{
     transform: translateY(-1px);
 }

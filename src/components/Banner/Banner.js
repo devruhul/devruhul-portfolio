@@ -28,13 +28,13 @@ const Banner = () => {
                         <a href="https://www.instagram.com/devruhul/" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fs-2 p-2 rounded-circle fa-instagram"></i> </a>
                     </div>
                     <div>
-                        <Link to="/contact"> <button className="btn-primary mt-4 fs-5">Contact Me</button></Link>
+                        <Link to="/contact"> <button className="primary-btn mt-4 fs-5">Contact Me</button></Link>
                     </div>
 
                 </div>
             </div>
             <div className="welcome-right">
-                <img className='w-50' src={profileImg} alt="" />
+                <img className='w-50' src={profileImg} alt="ruhul-amin" />
             </div>
         </div>
     );
