@@ -1,7 +1,11 @@
-
+.banner-bg{
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
 .banner-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 68px 0px;
+   
 }
 .welcome-left{
     display: flex;
@@ -76,4 +80,6 @@
     background: #8ed2a2;
     box-shadow:  20px 20px 57px #79b38a,
                 -20px -20px 57px #a3f2ba;
+    border-radius:  36% 64% 25% 75% / 54% 41% 59% 46%  ;
+               
 }

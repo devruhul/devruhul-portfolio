@@ -5,27 +5,8 @@ import { Card, CardGroup } from 'react-bootstrap';
 const PersonalInfo = () => {
     return (
         <div>
-
-
-            <h5>Personal Infos</h5>
-            <div className='personal-section p-5 bg-dark'>
-                <div>
-                    <div className='d-flex justify-content-around bg-info'>
-                        <div>
-                            <h5>Age : <span>20 Years</span> </h5>
-                            <h5>Nationality : <span>Bangladeshi</span> </h5>
-                            <h5>Freelance : <span>Available</span> </h5>
-
-                        </div>
-                        <div>
-                            <h5>Whatsapp : <span>01764896633</span> </h5>
-                            Email:
-                            <a href="mailto:ruhulamin262001@gmail.com"> ruhulamin262001@gmail.com </a>
-                            <h5>languages : <span>English</span> </h5>
-                        </div>
-                    </div>
-                </div>
-                <div className='bg-info d-flex justify-content-around '>
+            <div className='personal-section p-5 '>
+                <div className='d-flex justify-content-around '>
                     <CardGroup>
                         <Card>
                             <Card.Body>

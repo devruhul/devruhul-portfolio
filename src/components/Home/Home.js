@@ -4,10 +4,11 @@ import Banner from '../Banner/Banner';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Portfolios from '../Portfolios/Portfolios';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div className='mt-5'>
+        <div className='body-bg'>
             <Banner />
             <About />
             {/* <Portfolios />

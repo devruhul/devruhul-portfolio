@@ -1,27 +1,17 @@
 import React from 'react';
-import { Card, ProgressBar } from 'react-bootstrap';
-import profile from '../../images/profile.jpg'
+import { Card } from 'react-bootstrap';
 import ExperienceEducation from '../ExperienceEducation/ExperienceEducation';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import './About.css'
 
 const About = () => {
-    const reactNow = 90;
-    const jsNow = 80;
-    const bootstrapNow = 95;
-    const nodeNow = 90;
-    const monogoDbNow = 75;
-    const firebaseNow = 80;
 
     return (
         <div className='container mt-5'>
-            <h5 className="fs-4">About Me</h5>
-            <div className="about-container bg-warning p-5">
+            <h5 className="fs-2 fw-bold mb-4">About Me</h5>
+            <div className="about-container p-5">
                 <div>
-                    <img className="fluid w-50" src={profile} alt="" />
-                </div>
-                <div>
-                    <Card border="dark" style={{ width: '18rem' }}>
+                    <Card  className="w-75 h-75 fs-5 lh-lg bg-none">
                         <Card.Body>
                             <Card.Title>Self-introduction</Card.Title>
                             <Card.Text>
@@ -32,34 +22,53 @@ const About = () => {
                     </Card>
                 </div>
 
-                <div>
-                    <h2>My Skills</h2>
-                    <div className='progress-container'>
-                        <div className='progress-bar-container'>
-                            <h2> REACT</h2>
-                            <ProgressBar now={reactNow} animated striped variant="success" label={`${reactNow}%`} />;
-                        </div>
-                        <div className='progress-bar-container'>
-                            <h2> JAVASCRIPT</h2>
-                            <ProgressBar now={jsNow} animated striped variant="success" label={`${jsNow}%`} />;
-                        </div>
-                        <div className='progress-bar-container'>
-                            <h2> BOOTSTRAP</h2>
-                            <ProgressBar now={bootstrapNow} animated striped variant="success" label={`${bootstrapNow}%`} />;
-                        </div>
-                        <div className='progress-bar-container'>
-                            <h2> NODE JS</h2>
-                            <ProgressBar now={nodeNow} animated striped variant="success" label={`${nodeNow}%`} />;
-                        </div>
-                        <div className='progress-bar-container'>
-                            <h2> MONGO DB</h2>
-                            <ProgressBar now={monogoDbNow} animated striped variant="success" label={`${monogoDbNow}%`} />;
-                        </div>
-                        <div className='progress-bar-container'>
-                            <h2> FIREBASE</h2>
-                            <ProgressBar now={firebaseNow} animated striped variant="success" label={`${firebaseNow}%`} />;
-                        </div>
+                <div className="text-start skills-section">
+                    {/* <h2 className="fs-2 mt-4 ml-3">My Skills</h2> */}
+                    <p className='text-center'>HTML</p>
+                    <div class="container">
+                        <div class="skills html">90%</div>
                     </div>
+
+                    <p className='text-center'>CSS</p>
+                    <div class="container">
+                        <div class="skills css">80%</div>
+                    </div>
+
+                    <p className='text-center'>Bootstrap</p>
+                    <div class="container">
+                        <div class="skills bootstrap">95%</div>
+                    </div>
+
+                    <p className='text-center'>JavaScript</p>
+                    <div class="container">
+                        <div class="skills js">70%</div>
+                    </div>
+
+                    <p className='text-center'>React</p>
+                    <div class="container">
+                        <div class="skills react">90%</div>
+                    </div>
+
+                    <p className='text-center'>Firebase</p>
+                    <div class="container">
+                        <div class="skills firebase">95%</div>
+                    </div>
+
+                    <p className='text-center'>Node JS</p>
+                    <div class="container">
+                        <div class="skills node">75%</div>
+                    </div>
+                  
+                    <p className='text-center'>MongoDB</p>
+                    <div class="container">
+                        <div class="skills mongo">60%</div>
+                    </div>
+
+                    <p className='text-center'>Git</p>
+                    <div class="container">
+                        <div class="skills git">90%</div>
+                    </div>
+
                 </div>
             </div>
             <PersonalInfo />
