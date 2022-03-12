@@ -8,6 +8,9 @@
     flex-direction: column;
     justify-content: center;
 }
+.text-spacing{
+    letter-spacing: 10px;
+}
 .social-media-icon{
     margin: 0 10px;
     display: flex;
@@ -18,19 +21,24 @@
 }
 .fa-github{
     background-color:#000;
+    padding: 15px;
 }
 .fa-linkedin{
-    background-color: rgb(15, 197, 127);
+    background-color: #0e76a8;
+    padding: 15px;
 }
 .fa-envelope{
     background-color: rgb(15, 197, 127);
+    padding: 15px;
 }
 
 .fa-twitter{
     background-color: rgb(29, 161, 242);
+    padding: 15px;
 }
 .fa-instagram{
     background-color: rgb(211, 47, 47);
+    padding: 15px;
 }
 .social-media-icon a {
     margin: 20px;
@@ -60,4 +68,12 @@
 }
 .primary-btn:active{
     transform: translateY(-1px);
+}
+
+.welcome-right img{
+    border-radius: 50%;
+    border-radius: 50px;
+    background: #8ed2a2;
+    box-shadow:  20px 20px 57px #79b38a,
+                -20px -20px 57px #a3f2ba;
 }

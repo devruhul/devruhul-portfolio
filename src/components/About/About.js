@@ -12,9 +12,10 @@ const About = () => {
     const nodeNow = 90;
     const monogoDbNow = 75;
     const firebaseNow = 80;
+
     return (
-        <div className='container'>
-            <h5>About Me</h5>
+        <div className='container mt-5'>
+            <h5 className="fs-4">About Me</h5>
             <div className="about-container bg-warning p-5">
                 <div>
                     <img className="fluid w-50" src={profile} alt="" />
