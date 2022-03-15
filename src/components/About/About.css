@@ -5,12 +5,17 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: linear-gradient(to right top, #e9b1d1, #ddb1d7, #cfb2db, #c0b2dd, #b2b3dd, #a9b8e1, #a0bde2, #99c2e2, #97cce5, #98d5e5, #9edde4, #a8e5e1);
+}
+.skills-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
 }
 .personal-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 .skills-section p{
@@ -32,3 +37,4 @@ a{
   .firebase{width: 95%; background-color: #f44336;} /* Red */
   .node{width: 75%; background-color: rgb(97, 62, 62);} /* Black */
   .mongo{width: 60%; background-color: #ffc107;} /* Dark Orange */
+  .devtool{width: 60%; background-color: #619ba5;} /* Dark Orange */

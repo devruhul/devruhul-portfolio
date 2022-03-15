@@ -1,14 +1,15 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import ExperienceEducation from '../ExperienceEducation/ExperienceEducation';
-import PersonalInfo from '../PersonalInfo/PersonalInfo';
+import Services from '../Services/Services';
 import './About.css'
+
 
 const About = () => {
 
     return (
         <div className='container mt-5'>
-            <h5 className="fs-2 fw-bold mb-4">About Me</h5>
+            <h5 className="fs-2 fw-bold mb-4">About Me & Skills</h5>
             <div className="about-container p-5">
                 <Card className="w-75 h-100 fs-5 lh-lg bg-none">
                     <Card.Body>
@@ -21,8 +22,9 @@ const About = () => {
                 </Card>
 
                 {/* Skills Section */}
+                {/* <h2 className="fs-2 mt-4 ml-3">My Skills</h2> */}
                 <div className="skills-section">
-                    {/* <h2 className="fs-2 mt-4 ml-3">My Skills</h2> */}
+
                     <p className='text-center'>HTML</p>
                     <div class="container">
                         <div class="skills html">90%</div>
@@ -68,14 +70,17 @@ const About = () => {
                         <div class="skills git">90%</div>
                     </div>
 
+                    <p className='text-center'>Devtool</p>
+                    <div class="container">
+                        <div class="skills devtool">85%</div>
+                    </div>
 
                 </div>
             </div>
-            <PersonalInfo />
+
+            <Services />
             <ExperienceEducation />
         </div>
-
-
     )
 }
 
