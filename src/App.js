@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Portfolios from './components/Portfolios/Portfolios';
+import Services from './components/Services/Services';
 import Footer from './components/shared/Footer/Footer';
 import Header from './components/shared/Header/Header';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
         <Route path="portfolios" element={<Portfolios />} />
         <Route path="blogs" element={< Blogs />} />
         <Route path="contact" element={<Contact />} />
