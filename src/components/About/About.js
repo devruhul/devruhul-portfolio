@@ -10,19 +10,18 @@ const About = () => {
         <div className='container mt-5'>
             <h5 className="fs-2 fw-bold mb-4">About Me</h5>
             <div className="about-container p-5">
-                <div>
-                    <Card  className="w-75 h-75 fs-5 lh-lg bg-none">
-                        <Card.Body>
-                            <Card.Title>Self-introduction</Card.Title>
-                            <Card.Text>
-                                I'm Ruhul, also known as Ruhul Amin, a self-learner of Programming, FullStack Web Development  from Sunamganj, Bangladesh. I love coding, solving problems, building amazing projects, reading books & many other cool stuffs.
-                                I believe, Knowledge has no limits!.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
+                <Card className="w-75 h-100 fs-5 lh-lg bg-none">
+                    <Card.Body>
+                        <Card.Title>Self-introduction</Card.Title>
+                        <Card.Text>
+                            I'm Ruhul, also known as Ruhul Amin, a self-learner of Programming, FullStack Web Development  from Sunamganj, Bangladesh. I love coding, solving problems, building amazing projects, reading books & many other cool stuffs.
+                            I believe, Knowledge has no limits!.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
 
-                <div className="text-start skills-section">
+                {/* Skills Section */}
+                <div className="skills-section">
                     {/* <h2 className="fs-2 mt-4 ml-3">My Skills</h2> */}
                     <p className='text-center'>HTML</p>
                     <div class="container">
@@ -58,7 +57,7 @@ const About = () => {
                     <div class="container">
                         <div class="skills node">75%</div>
                     </div>
-                  
+
                     <p className='text-center'>MongoDB</p>
                     <div class="container">
                         <div class="skills mongo">60%</div>
@@ -69,12 +68,15 @@ const About = () => {
                         <div class="skills git">90%</div>
                     </div>
 
+
                 </div>
             </div>
             <PersonalInfo />
             <ExperienceEducation />
         </div>
-    );
-};
 
-export default About;
+
+    )
+}
+
+export default About
