@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+            <Navbar collapseOnSelect className="fw-bold py-2"  style={{ background:'linear-gradient(to bottom, #84a0c9, #75acd7, #60b8e2, #43c4e9, #12d0eb)'}} expand="lg"  variant="light">
                 <Container>
                     <Navbar.Brand as={Link} to="/" >ruhul.a()</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
