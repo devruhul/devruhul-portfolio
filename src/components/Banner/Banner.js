@@ -14,18 +14,18 @@ const Banner = () => {
                     </div>
                     <div className="social-media-icon mt-4">
                         <div>
-                            <a href="https://github.com/devruhul" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fs-2 rounded-circle fa-github"></i></a>
+                            <a href="https://github.com/devruhul" target="_blank" rel="noopener noreferrer">  <i className="fa-brands fs-2 rounded-circle fa-github"></i></a>
 
-                            <a href="https://www.linkedin.com/in/devruhul/" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fs-2  rounded-circle fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/devruhul/" target="_blank" rel="noopener noreferrer">  <i className="fa-brands fs-2  rounded-circle fa-linkedin"></i></a>
 
-                            <a href='mailto:ruhulamin262001@gmail.com' target="_blank" rel="noopener noreferrer">   <i class="fa-solid fs-2  rounded-circle fa-envelope">
+                            <a href='mailto:ruhulamin262001@gmail.com' target="_blank" rel="noopener noreferrer">   <i className="fa-solid fs-2  rounded-circle fa-envelope">
 
                             </i> </a>
 
-                            <a href="https://twitter.com/dev_ruhul" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fs-2 rounded-circle fa-twitter"></i></a>
+                            <a href="https://twitter.com/dev_ruhul" target="_blank" rel="noopener noreferrer">  <i className="fa-brands fs-2 rounded-circle fa-twitter"></i></a>
 
 
-                            <a href="https://www.instagram.com/devruhul/" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fs-2 rounded-circle fa-instagram"></i> </a>
+                            <a href="https://www.instagram.com/devruhul/" target="_blank" rel="noopener noreferrer">  <i className="fa-brands fs-2 rounded-circle fa-instagram"></i> </a>
                         </div>
                         <div>
                             <Link to="/contact"> <button className="primary-btn mt-5 fs-5">Contact Me</button></Link>
