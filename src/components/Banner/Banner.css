@@ -20,7 +20,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 .fa-github{
     background-color:#000;
@@ -64,10 +63,10 @@
  outline: none;
 }
 .primary-btn:hover{
- background-color: #2EE59D;
- box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
- color: #fff;
- transform: translateY(-7px);
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
 }
 .primary-btn:active{
     transform: translateY(-1px);

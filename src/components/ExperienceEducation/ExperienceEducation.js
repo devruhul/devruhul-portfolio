@@ -1,72 +1,68 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './exp&edu.css'
 
 const ExperienceEducation = () => {
     return (
-        <div>
-            <h2>Experience & Education</h2>
-            <VerticalTimeline>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="2021 - present"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon={<i className="fa-solid fa-briefcase fs-2 mt-3 pb-4"></i>}
-                >
-
-                    <h3 className="vertical-timeline-element-title">Front End Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Sunamganj</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                    </p>
-                </VerticalTimelineElement>
+        <div className="container mt-5">
+            <h2 className='mb-5 fw-bold'>Experience & Education</h2>
+            <VerticalTimeline className='timeline-container p-5 mt-5'>
+               
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2006 - 2008"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    date="2021 - Present"
+                    contentStyle={{ backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%', color: '#fff' }}
+
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundClip: ' border-box', backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%' }}
+
                     icon={<i className="fa-solid fa-briefcase fs-2 mt-3 pb-4"></i>}
                 >
-                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Sunamganj</h4>
+                    <h3 className="vertical-timeline-element-title lh-lg">Front End Developer</h3>
+                    <h4 className="vertical-timeline-element-subtitle">STS Consultancy Services, Sunamganj</h4>
                     <p>
-                        User Experience, Visual Design
+                        My Responsibilities : <br />
+                       1. Finding and writing down mistakes in the design part of the website. <br />
+                       2. Explain the wrong part of the design to the backend developer
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: '#E91E64', color: '#fff' }}
-                    date="November 2012"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    contentStyle={{ backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%', color: '#fff' }}
+
+                    date="November 2022"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundClip: ' border-box', backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%' }}
                     icon={<i className="fa-solid fa-graduation-cap fs-2 mt-3 pb-4"></i>}
                 >
-                    <h3 className="vertical-timeline-element-title">B.Sc in Accounting</h3>
+                    <h3 className="vertical-timeline-element-title lh-lg">B.Sc in Accounting</h3>
                     <h4 className="vertical-timeline-element-subtitle">National University</h4>
                     <p>
-                        Second Year Running
+                        One of the best university in Bangladesh. <br /> 
+                        Second Year Running.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="2002 - 2006"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    date="2017 - 2019"
+                    contentStyle={{ backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%', color: '#fff' }}
+
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundClip: ' border-box', backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%' }}
+
                     icon={<i className="fa-solid fa-graduation-cap fs-2 mt-3 pb-4"></i>}
                 >
-                    <h3 className="vertical-timeline-element-title">Higher Secondary Education (H.S.C) </h3>
+                    <h4 className="vertical-timeline-element-title lh-lg">Higher Secondary Certificate </h4>
                     <h4 className="vertical-timeline-element-subtitle">Sunamganj Govt. College, Sunamganj</h4>
                     <p>
-                        Completed 2019
+                        I studied one of the best institution in my town, Completed 2019
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundClip: ' border-box', backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%' }}
+
                     icon={<i className="fa-solid fa-star fs-2 mt-3 pb-4"></i>}
                 />
             </VerticalTimeline>
-
-
 
         </div>
     );
