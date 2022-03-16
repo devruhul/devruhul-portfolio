@@ -5,11 +5,9 @@ import './exp&edu.css'
 
 const ExperienceEducation = () => {
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 mb-5">
             <h2 className='mb-5 fw-bold'>Experience & Education</h2>
             <VerticalTimeline className='timeline-container p-5 mt-5'>
-               
-
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="2021 - Present"
@@ -43,7 +41,7 @@ const ExperienceEducation = () => {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element--education mb-5"
                     date="2017 - 2019"
                     contentStyle={{ backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%', color: '#fff' }}
 
@@ -57,11 +55,11 @@ const ExperienceEducation = () => {
                         I studied one of the best institution in my town, Completed 2019
                     </p>
                 </VerticalTimelineElement>
-                <VerticalTimelineElement
+                {/* <VerticalTimelineElement
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundClip: ' border-box', backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%' }}
 
                     icon={<i className="fa-solid fa-star fs-2 mt-3 pb-4"></i>}
-                />
+                /> */}
             </VerticalTimeline>
 
         </div>
