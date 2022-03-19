@@ -5,7 +5,7 @@ import Services from '../Services/Services';
 import ExperienceEducation from '../ExperienceEducation/ExperienceEducation';
 // import Blogs from '../Blogs/Blogs';
 // import Contact from '../Contact/Contact';
-// import Portfolios from '../Portfolios/Portfolios';
+import Portfolios from '../Portfolios/Portfolios';
 import './Home.css'
 import ProjectContact from '../ProjectContact/ProjectContact';
 
@@ -17,8 +17,8 @@ const Home = () => {
             <Services />
             <ExperienceEducation />
             <ProjectContact/>
-            {/* <Portfolios />
-            <Contact />
+            <Portfolios />
+            {/* <Contact />
             <Blogs /> */}
         </div>
     );
