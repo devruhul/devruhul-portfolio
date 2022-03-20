@@ -34,7 +34,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="welcome-right">
-                    <img className='w-75' src={profileImg} alt="ruhul-amin" />
+                    <img className='w-50' src={profileImg} alt="ruhul-amin" />
                 </div>
             </div>
         </div>

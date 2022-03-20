@@ -29,4 +29,19 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* media query for medium devices */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .contact-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Media query for big devices */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .contact-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
     

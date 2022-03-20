@@ -9,7 +9,7 @@ const Services = () => {
             <div>
                 <h2 className='text-center fs-2 fw-bold mt-3 mb-5'>My Services</h2>
                 <CardGroup className="card-container">
-                    <Card className="card p-4 round">
+                    <Card className="main-card p-4 round">
                         <i className="fa-solid fa-mobile-button card-icon"></i>
                         <Card.Body>
                             <Card.Title className="fs-3 text-primary fw-bold">Landing Page</Card.Title>
@@ -18,7 +18,7 @@ const Services = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="card p-4 round">
+                    <Card className="main-card p-4 round">
                         <i className="fa-solid fa-palette card-icon"></i>
                         <Card.Body>
                             <Card.Title  className="fs-3 text-primary fw-bold">Web Design</Card.Title>
@@ -27,7 +27,7 @@ const Services = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="card p-4 round">
+                    <Card className="main-card p-4 round">
                         <i className="fa-solid fa-code card-icon"></i>
                         <Card.Body>
                             <Card.Title  className="fs-3 text-primary fw-bold">Web Development</Card.Title>
@@ -36,7 +36,7 @@ const Services = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="card p-4 round">
+                    <Card className="main-card p-4 round">
                         <i className="fa-solid fa-bezier-curve card-icon"></i>
                         <Card.Body>
                             <Card.Title  className="fs-3 text-primary fw-bold">UI Design</Card.Title>
@@ -45,7 +45,7 @@ const Services = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="card p-4 round">
+                    <Card className="main-card p-4 round">
                         <i className="fa-solid fa-rocket card-icon"></i>
                         <Card.Body>
                             <Card.Title  className="fs-3 text-primary fw-bold">Website Speed Optimise</Card.Title>
@@ -54,7 +54,7 @@ const Services = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="card p-4 round">
+                    <Card className="main-card p-4 round">
                         <i className="fa-solid fa-headset card-icon"></i>
                         <Card.Body>
                             <Card.Title  className="fs-3 text-primary fw-bold">Consultancy and support</Card.Title>

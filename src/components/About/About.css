@@ -1,11 +1,20 @@
-a{
-    text-decoration: none;
-}
 .about-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     background-image: linear-gradient(to right top, #e9b1d1, #ddb1d7, #cfb2db, #c0b2dd, #b2b3dd, #a9b8e1, #a0bde2, #99c2e2, #97cce5, #98d5e5, #9edde4, #a8e5e1);
+}
+.about-card{
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    width: 100%;
+    padding: 20px;
+    font-size: 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.about-text{
+    padding: 10px;
+    font-size: 20px;
 }
 .skills-section{
     display: grid;
@@ -23,16 +32,16 @@ a{
     color: white; /* White text color */
   }
   
-  .html {width: 90%; background-color: #04AA6D;} /* Green */
-  .css {width: 80%; background-color: #2196F3;} /* Blue */
-  .bootstrap{width: 95%; background-color: #FF9800;} /* Orange */
-  .js {width: 70%; background-color: #6f700f;} /* Red */
-  .react {width: 90%; background-color: #0c9ee2;} /* Dark Grey */
-  .git{width: 90%; background-color: #000;} /* Black */
-  .firebase{width: 95%; background-color: #f44336;} /* Red */
-  .node{width: 75%; background-color: rgb(97, 62, 62);} /* Black */
-  .mongo{width: 60%; background-color: #ffc107;} /* Dark Orange */
-  .devtool{width: 60%; background-color: #619ba5;} /* Dark Orange */
+  .html { background-color: #04AA6D;} /* Green */
+  .css {background-color: #2196F3;} /* Blue */
+  .bootstrap{ background-color: #FF9800;} /* Orange */
+  .js {background-color: #6f700f;} /* Red */
+  .react {background-color: #0c9ee2;} /* Dark Grey */
+  .git{ background-color: #000;} /* Black */
+  .firebase{background-color: #f44336;} /* Red */
+  .node{ background-color: rgb(97, 62, 62);} /* Black */
+  .mongo{background-color: #ffc107;} /* Dark Orange */
+  .devtool{ background-color: #619ba5;} /* Dark Orange */
 
   /* media query for small devices */
 
@@ -43,4 +52,47 @@ a{
     .skills-section{
         grid-template-columns: repeat(1, 1fr);
     }
+    .about-card{
+        width: 50%;
+
+    }
+    .about-text{
+        font-size: 20px;
+    }
+    
   }
+    /* media query for medium devices */
+    @media screen and (min-width: 321px) and (max-width: 480px) {
+        .about-container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .skills-section{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .about-card{
+            width: 50%;
+
+        }
+        .about-text{
+            font-size: 20px;
+        }
+    }
+
+    /* Media query for big devices */
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        .about-container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .skills-section{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .about-card{
+            width: 50%;
+
+        }
+        .about-text{
+            font-size: 20px;
+        }
+    }
+        
+        

@@ -8,16 +8,17 @@ const About = () => {
     return (
         <div className='container mt-5'>
             <h5 className="text-center fs-2 fw-bold mt-3 mb-5">About Me & Skills</h5>
-            <div className="about-container p-5">
-                <Card className="w-75 h-100 fs-5 lh-lg bg-none">
-                    <Card.Body>
-                        <Card.Title>Self-introduction</Card.Title>
-                        <Card.Text>
-                            I'm Ruhul, also known as Ruhul Amin, a self-learner of Programming, FullStack Web Development  from Sunamganj, Bangladesh. I love coding, solving problems, building amazing projects, reading books & many other cool stuffs.
-                            I believe, Knowledge has no limits!.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+            <div className="about-container w-100 h-100 p-5">
+                    <Card className="w-75 lh-lg about-card ">
+                        <Card.Body>
+                            <Card.Title>Self-introduction</Card.Title>
+                            <Card.Text className="about-text">
+                                I'm Ruhul, also known as Ruhul Amin, a self-learner of Programming, FullStack Web Development  from Sunamganj, Bangladesh. I love coding, solving problems, building amazing projects, reading books & many other cool stuffs.
+                                I believe, Knowledge has no limits!.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
 
                 {/* Skills Section */}
                 {/* <h2 className="fs-2 mt-4 ml-3">My Skills</h2> */}
