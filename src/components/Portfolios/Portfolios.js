@@ -13,7 +13,7 @@ const Portfolios = () => {
         <div className='mt-5'>
             <h2 className='text-center fs-2 fw-bold mt-3 mb-5'>My Recent Works</h2>
 
-            <div class="portfolio-container container">
+            <div className="portfolio-container container">
                 <Card className='portfolio-card  '>
                     <Card.Img className='portfolio-img' variant="top" src={carRepair} />
                     <Card.Body>

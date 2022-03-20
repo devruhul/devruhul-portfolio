@@ -9,11 +9,16 @@ export const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_uxst0qa', 'template_fn963q8', form.current, 'user_tvW8WN4bTDDccNPfj5nTg')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
+        emailjs.sendForm('service_k1sie3o', 'template_5atu5m6', form.current, 'user_tvW8WN4bTDDccNPfj5nTg')
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+                if (response.status === 200) {
+                    alert('Successfully sent message')
+                } else {
+                    alert('There is an error please try again')
+                }
+            }, function (error) {
+                alert(`There is an error please try again${error}`)
             });
         e.target.reset()
     };
@@ -21,22 +26,22 @@ export const Contact = () => {
     return (
         <div className="container mt-5">
             <div className="row">
-                    <h1 className="text-center fs-2 fw-bold mb-5">Contact Me</h1>
+                <h1 className="text-center fs-2 fw-bold mb-5">Contact Me</h1>
             </div>
             <div className="contact-container">
                 <div className="contact-details p-5 lh-lg">
                     <div>
-                        <i class="fa-solid fa-location-dot contact-icon"></i>
+                        <i className="fa-solid fa-location-dot contact-icon"></i>
                         <h2>Address</h2>
                         <p>Sunamganj, Bangladesh</p>
                     </div>
                     <div>
-                        <i class="fa-solid fa-phone contact-icon"></i>
+                        <i className="fa-solid fa-phone contact-icon"></i>
                         <h2>Phone</h2>
                         <a className="call-number text-warning" href="tel:01764896633">+8801764896633</a>
                     </div>
                     <div>
-                        <i class="fa-solid fa-envelope-open mt-3 contact-icon"></i>
+                        <i className="fa-solid fa-envelope-open mt-3 contact-icon"></i>
                         <h2>Email</h2>
                         <a className="text-light fs-5"
                             rel="noreferrer"
@@ -45,27 +50,25 @@ export const Contact = () => {
                 </div>
 
                 <Form className="contact-form p-5 lh-lg gap-3" ref={form} onSubmit={sendEmail}>
-                    <Form.Group className="mb-3 pb-2" controlId="exampleForm.ControlInput1">
+                    <Form.Group className="mb-3 pb-2" >
                         <FloatingLabel
-                            controlId="floatingInput"
                             label="Name"
                             className="mb-3"
                         >
-                            <Form.Control type="text" name="name" id='name' placeholder="Enter Your Name" />
+                            <Form.Control type="text" name="user_name" id='Name' placeholder="Enter Your Name" />
                         </FloatingLabel>
                     </Form.Group>
-                    <Form.Group className="mb-3 pb-2" controlId="exampleForm.ControlInput1">
+                    <Form.Group className="mb-3 pb-2">
                         <FloatingLabel
-                            controlId="floatingInput"
-                            label="Email address"
+                            label="Email"
                             className="mb-3"
                         >
-                            <Form.Control type="email" name="email" id='email' placeholder="Enter Your Email" />
+                            <Form.Control type="email" name="user_email" id='Email' placeholder="Enter Your Email" />
                         </FloatingLabel>
 
                     </Form.Group>
-                    <Form.Group className="mb-3 pb-2" controlId="exampleForm.ControlTextarea1">
-                        <FloatingLabel controlId="floatingTextarea2" label="Comments">
+                    <Form.Group className="mb-3 pb-2" >
+                        <FloatingLabel label="Comments">
                             <Form.Control
                                 as="textarea"
                                 name="message" id="message" rows={3} placeholder="Your Message"
@@ -73,19 +76,9 @@ export const Contact = () => {
                             />
                         </FloatingLabel>
                     </Form.Group>
-                    <button type="submit" className="primary-btn mt-4">Submit</button>
+                    <button type="submit" value="Send" className="primary-btn mt-4">Submit</button>
                 </Form>
             </div>
-            {/* 
-            <form ref={form} onSubmit={sendEmail}>
-                <label htmlFor="name">Name</label>
-                <input type="text" name="name" id='name' />
-                <label htmlFor="email">Email</label>
-                <input type="email" name="email" id='email' />
-                <label htmlFor="message">Message</label>
-                <textarea name="message" id="message" />
-                <input type="submit" value="Submit" />
-            </form> */}
         </div>
     );
 };
