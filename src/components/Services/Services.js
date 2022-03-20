@@ -5,7 +5,7 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <section className='container services-section  p-5 '>
+        <section className='container services-section mt-5'>
             <div>
                 <h2 className='text-center fs-2 fw-bold mt-3 mb-5'>My Services</h2>
                 <CardGroup className="card-container">

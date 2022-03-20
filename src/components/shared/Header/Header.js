@@ -16,7 +16,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="services">Services</Nav.Link>
                             <Nav.Link as={Link} to="portfolios">Portfolio</Nav.Link>
                             <Nav.Link as={Link} to="contact">Contact</Nav.Link>
-                            <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+                            {/* <Nav.Link as={Link} to="blogs">Blogs</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

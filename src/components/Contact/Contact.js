@@ -21,9 +21,7 @@ export const Contact = () => {
     return (
         <div className="container mt-5">
             <div className="row">
-                <div className="col-md-12">
-                    <h1 className="text-center fw-bold mb-5">Contact Me</h1>
-                </div>
+                    <h1 className="text-center fs-2 fw-bold mb-5">Contact Me</h1>
             </div>
             <div className="contact-container">
                 <div className="contact-details p-5 lh-lg">

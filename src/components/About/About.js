@@ -7,7 +7,7 @@ const About = () => {
 
     return (
         <div className='container mt-5'>
-            <h5 className="fs-2 fw-bold mb-4 ">About Me & Skills</h5>
+            <h5 className="text-center fs-2 fw-bold mt-3 mb-5">About Me & Skills</h5>
             <div className="about-container p-5">
                 <Card className="w-75 h-100 fs-5 lh-lg bg-none">
                     <Card.Body>
