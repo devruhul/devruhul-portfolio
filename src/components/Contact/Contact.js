@@ -29,8 +29,8 @@ export const Contact = () => {
                 <h1 className="text-center fs-2 fw-bold mb-5">Contact Me</h1>
             </div>
             <div className="contact-container">
-                <div className="contact-details p-5 lh-lg">
-                    <div>
+                <div className="contact-details lh-lg">
+                    <div className="mt-5">
                         <i className="fa-solid fa-location-dot contact-icon"></i>
                         <h2>Address</h2>
                         <p>Sunamganj, Bangladesh</p>
@@ -40,7 +40,7 @@ export const Contact = () => {
                         <h2>Phone</h2>
                         <a className="call-number text-warning" href="tel:01764896633">+8801764896633</a>
                     </div>
-                    <div>
+                    <div className="mb-5">
                         <i className="fa-solid fa-envelope-open mt-3 contact-icon"></i>
                         <h2>Email</h2>
                         <a className="text-light fs-5"

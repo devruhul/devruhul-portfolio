@@ -13,3 +13,11 @@
     text-align: justify;
 }
 
+/* media query for small devices */
+
+@media screen and (max-width: 320px){
+    .portfolio-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

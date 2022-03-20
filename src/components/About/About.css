@@ -12,11 +12,6 @@ a{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
-.personal-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
 
 .skills-section p{
     font-size: larger;
@@ -38,3 +33,14 @@ a{
   .node{width: 75%; background-color: rgb(97, 62, 62);} /* Black */
   .mongo{width: 60%; background-color: #ffc107;} /* Dark Orange */
   .devtool{width: 60%; background-color: #619ba5;} /* Dark Orange */
+
+  /* media query for small devices */
+
+  @media screen and (max-width: 320px) {
+    .about-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skills-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

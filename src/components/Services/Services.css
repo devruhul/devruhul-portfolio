@@ -22,3 +22,12 @@
     font-size: 80px;
 
 }
+
+/* media query for small devices */
+
+@media screen and (max-width: 320px) {
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+    
