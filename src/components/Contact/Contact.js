@@ -24,7 +24,6 @@ export const Contact = () => {
             <div className="row">
                 <div className="col-md-12">
                     <h1 className="text-center fw-bold mb-5">Contact Me</h1>
-                 
                 </div>
             </div>
 
@@ -38,13 +37,12 @@ export const Contact = () => {
                     <div>
                         <i class="fa-solid fa-phone"></i>
                         <h2>Phone</h2>
-                        <a href="tel:01764896633">+8801764896633, <a href="tel:01757183606">+8801757183606</a></a>
-
+                        <a className="call-number text-warning" href="tel:01764896633">+8801764896633</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-envelope-open"></i>
                         <h2>Email</h2>
-                        <a href="mailto:ruhulamin262001@gmail.com">ruhulamin262001@gmail.com</a>
+                        <a className="text-light fs-5" target="_blank" href="mailto:ruhulamin262001@gmail.com">ruhulamin262001@gmail.com</a>
                     </div>
                 </div>
 
