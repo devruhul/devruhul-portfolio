@@ -28,19 +28,19 @@ export const Contact = () => {
             </div>
 
             <div className="contact-container">
-                <div className="contact-details p-5">
+                <div className="contact-details p-5 lh-lg">
                     <div>
-                        <i class="fa-solid fa-location-dot"></i>
+                        <i class="fa-solid fa-location-dot contact-icon"></i>
                         <h2>Address</h2>
                         <p>Sunamganj, Bangladesh</p>
                     </div>
                     <div>
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-phone contact-icon"></i>
                         <h2>Phone</h2>
                         <a className="call-number text-warning" href="tel:01764896633">+8801764896633</a>
                     </div>
                     <div>
-                        <i class="fa-solid fa-envelope-open"></i>
+                        <i class="fa-solid fa-envelope-open mt-3 contact-icon"></i>
                         <h2>Email</h2>
                         <a className="text-light fs-5"
                             rel="noreferrer"
@@ -48,8 +48,8 @@ export const Contact = () => {
                     </div>
                 </div>
 
-                <Form className="contact-form p-5" ref={form} onSubmit={sendEmail}>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <Form className="contact-form p-5 lh-lg gap-3" ref={form} onSubmit={sendEmail}>
+                    <Form.Group className="mb-3 pb-2" controlId="exampleForm.ControlInput1">
                         <FloatingLabel
                             controlId="floatingInput"
                             label="Name"
@@ -58,7 +58,7 @@ export const Contact = () => {
                             <Form.Control type="text" name="name" id='name' placeholder="Enter Your Name" />
                         </FloatingLabel>
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                    <Form.Group className="mb-3 pb-2" controlId="exampleForm.ControlInput1">
                         <FloatingLabel
                             controlId="floatingInput"
                             label="Email address"
@@ -68,15 +68,14 @@ export const Contact = () => {
                         </FloatingLabel>
 
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Group className="mb-3 pb-2" controlId="exampleForm.ControlTextarea1">
                         <FloatingLabel controlId="floatingTextarea2" label="Comments">
                             <Form.Control
                                 as="textarea"
                                 name="message" id="message" rows={3} placeholder="Your Message"
-                                style={{ height: '100px' }}
+                                style={{ height: '125px' }}
                             />
                         </FloatingLabel>
-
                     </Form.Group>
 
                     <button type="submit" className="primary-btn mt-4">Submit</button>
