@@ -42,7 +42,9 @@ export const Contact = () => {
                     <div>
                         <i class="fa-solid fa-envelope-open"></i>
                         <h2>Email</h2>
-                        <a className="text-light fs-5" target="_blank" href="mailto:ruhulamin262001@gmail.com">ruhulamin262001@gmail.com</a>
+                        <a className="text-light fs-5"
+                            rel="noreferrer"
+                            target="_blank" href="mailto:ruhulamin262001@gmail.com">ruhulamin262001@gmail.com</a>
                     </div>
                 </div>
 
