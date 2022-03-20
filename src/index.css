@@ -7,15 +7,6 @@ body, html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1{
-  font-size: 5.9vw;
-}
-h2{
-  font-size: 3.0vh;
-}
-p{
-  font-size: 2vmin;
-}
 ul, ol{
   list-style-type: none;
 }

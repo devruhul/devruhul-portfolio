@@ -5,6 +5,7 @@ import './Services.css';
 
 const Services = () => {
     return (
+        // services section start
         <section className='container services-section mt-5'>
             <div>
                 <h2 className='text-center fs-2 fw-bold mt-3 mb-5'>My Services</h2>
@@ -65,11 +66,8 @@ const Services = () => {
                     </Card>
                 </CardGroup>
             </div>
-            {/* <div className='text-center'>
-                    <button className="primary-btn mt-4 fs-5  ">Download CV  <i className="fa-solid fa-download" ></i> </button>
-                </div> */}
         </section>
-
+        // services section end
     );
 };
 

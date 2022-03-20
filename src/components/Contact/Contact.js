@@ -5,7 +5,7 @@ import './Contact.css';
 
 export const Contact = () => {
     const form = useRef();
-
+    // send email to my gmail account through emailjs
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -24,6 +24,7 @@ export const Contact = () => {
     };
 
     return (
+        // Contact section start
         <div className="container mt-5 mb-5">
             <div className="row">
                 <h1 className="text-center fs-2 fw-bold mb-5">Contact Me</h1>
@@ -48,6 +49,8 @@ export const Contact = () => {
                             target="_blank" href="mailto:ruhulamin262001@gmail.com">ruhulamin262001@gmail.com</a>
                     </div>
                 </div>
+
+                {/* Form start here  */}
 
                 <Form className="contact-form p-5 lh-lg gap-3" ref={form} onSubmit={sendEmail}>
                     <Form.Group className="mb-3 pb-2" >
@@ -78,8 +81,10 @@ export const Contact = () => {
                     </Form.Group>
                     <button type="submit" value="Send" className="primary-btn mt-4">Submit</button>
                 </Form>
+                {/* Form end here */}
             </div>
         </div>
+        // Contact section ends
     );
 };
 

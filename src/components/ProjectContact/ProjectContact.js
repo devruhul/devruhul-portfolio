@@ -5,6 +5,7 @@ import './ProjectContact.css'
 
 const ProjectContact = () => {
     return (
+        // project contact section start
         <section id="call-to-action" className="call-to-action mt-5 pt-5 pb-3" >
             <div className="container">
                 <div className="row justify-content-center">
@@ -24,7 +25,7 @@ const ProjectContact = () => {
                 </div>
             </div>
         </section>
-
+        // project contact section end 
     );
 };
 

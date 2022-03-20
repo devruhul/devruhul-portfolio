@@ -5,6 +5,7 @@ import './exp&edu.css'
 
 const ExperienceEducation = () => {
     return (
+    // ExperienceEducation section start
         <div className="container mt-5 mb-5">
             <h2 className='text-center fs-2 fw-bold mb-5'>Experience & Education</h2>
             <VerticalTimeline className='timeline-container p-5 mt-5'>
@@ -61,8 +62,8 @@ const ExperienceEducation = () => {
                     icon={<i className="fa-solid fa-star fs-2 mt-3 pb-4"></i>}
                 /> */}
             </VerticalTimeline>
-
         </div>
+    // ExperienceEducation section end
     );
 };
 
