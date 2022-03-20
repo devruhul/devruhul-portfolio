@@ -5,8 +5,9 @@ import './Banner.css'
 
 const Banner = () => {
     return (
+        // Banner section start
         <div className="banner-bg">
-            <div className='banner-container container '>
+            <div className='banner-container container'>
                 <div className="welcome-left">
                     <div>
                         <h1 className='fs-3'>Hello &#128075;</h1>
@@ -30,7 +31,6 @@ const Banner = () => {
                         <div>
                             <Link to="/contact"> <button className="primary-btn mt-5 fs-5">Contact Me</button></Link>
                         </div>
-
                     </div>
                 </div>
                 <div className="welcome-right">

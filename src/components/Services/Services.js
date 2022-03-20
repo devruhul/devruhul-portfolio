@@ -50,7 +50,7 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title  className="fs-3 text-primary fw-bold">Website Speed Optimise</Card.Title>
                             <Card.Text  className="fs-5 text-justify">
-                                Who likes slow speed? Speeding up WordPress and Custom websites is like playing with the keyboard to me!
+                                Who likes slow speed in website? Speeding up Custom websites is like playing with the keyboard to me!
                             </Card.Text>
                         </Card.Body>
                     </Card>

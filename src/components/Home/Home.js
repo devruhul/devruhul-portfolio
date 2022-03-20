@@ -6,12 +6,11 @@ import ExperienceEducation from '../ExperienceEducation/ExperienceEducation';
 // import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Portfolios from '../Portfolios/Portfolios';
-import './Home.css'
 import ProjectContact from '../ProjectContact/ProjectContact';
 
 const Home = () => {
     return (
-        <div className='body-bg'>
+        <div>
             <Banner />
             <About />
             <Services />

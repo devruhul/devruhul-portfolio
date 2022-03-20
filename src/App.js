@@ -13,7 +13,9 @@ import Header from './components/shared/Header/Header';
 function App() {
   return (
     <div className="App">
+      {/* All components are showing header */}
       <Header />
+    {/* Full website route */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />
@@ -24,6 +26,8 @@ function App() {
         <Route path="blogs" element={< Blogs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      {/*  */}
+      {/* All components are showing footer */}
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ import './exp&edu.css'
 const ExperienceEducation = () => {
     return (
         <div className="container mt-5 mb-5">
-            <h2 className='mb-5 fw-bold'>Experience & Education</h2>
+            <h2 className='text-center fs-2 fw-bold mb-5'>Experience & Education</h2>
             <VerticalTimeline className='timeline-container p-5 mt-5'>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
