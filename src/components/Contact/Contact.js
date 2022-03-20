@@ -20,13 +20,11 @@ export const Contact = () => {
 
     return (
         <div className="container mt-5">
-
             <div className="row">
                 <div className="col-md-12">
                     <h1 className="text-center fw-bold mb-5">Contact Me</h1>
                 </div>
             </div>
-
             <div className="contact-container">
                 <div className="contact-details p-5 lh-lg">
                     <div>
@@ -77,15 +75,9 @@ export const Contact = () => {
                             />
                         </FloatingLabel>
                     </Form.Group>
-
                     <button type="submit" className="primary-btn mt-4">Submit</button>
-
                 </Form>
             </div>
-
-
-
-
             {/* 
             <form ref={form} onSubmit={sendEmail}>
                 <label htmlFor="name">Name</label>
@@ -97,7 +89,6 @@ export const Contact = () => {
                 <input type="submit" value="Submit" />
             </form> */}
         </div>
-
     );
 };
 
