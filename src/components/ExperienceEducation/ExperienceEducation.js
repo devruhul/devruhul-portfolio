@@ -34,7 +34,7 @@ const ExperienceEducation = () => {
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundClip: ' border-box', backgroundImage: ' radial-gradient(circle farthest-corner at 14.2% 27.5%, rgba(104, 199, 255, 1) 0%, rgba(181, 126, 255, 1) 90%' }}
                     icon={<i className="fa-solid fa-graduation-cap fs-2 mt-3 pb-4"></i>}
                 >
-                    <h3 className="vertical-timeline-element-title lh-lg">B.Sc in Accounting</h3>
+                    <h3 className="vertical-timeline-element-title lh-lg">BBA in Accounting</h3>
                     <h4 className="vertical-timeline-element-subtitle">National University</h4>
                     <p>
                         One of the best university in Bangladesh. <br /> 
