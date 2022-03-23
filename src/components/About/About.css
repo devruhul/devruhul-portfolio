@@ -1,15 +1,15 @@
 .about-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 50px;
     background-image: linear-gradient(to right top, #e9b1d1, #ddb1d7, #cfb2db, #c0b2dd, #b2b3dd, #a9b8e1, #a0bde2, #99c2e2, #97cce5, #98d5e5, #9edde4, #a8e5e1);
 }
 .about-card{
     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     width: 100%;
-    padding: 20px;
-    font-size: 50px;
-    transition: all 0.3s ease-in-out;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
     cursor: pointer;
 }
 .about-text{
@@ -53,7 +53,9 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .about-card{
-        width: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
 
     }
     .about-text{
@@ -70,7 +72,9 @@
             grid-template-columns: repeat(1, 1fr);
         }
         .about-card{
-            width: 50%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
 
         }
         .about-text{
@@ -87,7 +91,9 @@
             grid-template-columns: repeat(1, 1fr);
         }
         .about-card{
-            width: 50%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
 
         }
         .about-text{
