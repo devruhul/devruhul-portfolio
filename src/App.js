@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       {/* All components are showing header */}
       <Header />
-    {/* Full website route */}
+      {/* Full website route */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />

@@ -58,7 +58,7 @@ export const Contact = () => {
                             label="Name"
                             className="mb-3"
                         >
-                            <Form.Control type="text" name="user_name" id='Name' placeholder="Enter Your Name" />
+                            <Form.Control type="text" name="user_name" id='Name' placeholder="Enter Your Name" required />
                         </FloatingLabel>
                     </Form.Group>
                     <Form.Group className="mb-3 pb-2">
@@ -66,7 +66,7 @@ export const Contact = () => {
                             label="Email"
                             className="mb-3"
                         >
-                            <Form.Control type="email" name="user_email" id='Email' placeholder="Enter Your Email" />
+                            <Form.Control type="email" name="user_email" id='Email' placeholder="Enter Your Email" required />
                         </FloatingLabel>
 
                     </Form.Group>
@@ -76,6 +76,7 @@ export const Contact = () => {
                                 as="textarea"
                                 name="message" id="message" rows={3} placeholder="Your Message"
                                 style={{ height: '125px' }}
+                                required
                             />
                         </FloatingLabel>
                     </Form.Group>
