@@ -15,7 +15,7 @@ const Portfolios = () => {
             <h2 className='text-center fs-2 fw-bold mt-3 mb-5'>My Recent Works</h2>
 
             <div className="portfolio-container container">
-                <Card className='portfolio-card  '>
+                <Card className='portfolio-card'>
                     <Card.Img className='portfolio-img' variant="top" src={carRepair} />
                     <Card.Body>
                         <Card.Title>Car Repair App</Card.Title>

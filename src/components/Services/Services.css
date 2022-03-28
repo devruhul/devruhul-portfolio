@@ -12,15 +12,12 @@
 .main-card:hover{
     box-shadow: 5px 5px 10px 0px  rgba(0,0,0,0.3);
 }
-
 .round{
     border-radius: 20px !important;
 }
-
 .card-icon{
     color: white;
     font-size: 80px;
-
 }
 
 /* media query for small devices */
