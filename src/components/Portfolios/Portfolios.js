@@ -23,9 +23,9 @@ const Portfolios = () => {
                             A car repair app that allows users to create an account, log in, and add a car to their account.
                             Users can also add a car to their account, view their profile, and view all of the cars in their account.
                         </Card.Text>
-                        <Card.Footer>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/car-repair-client">Github</Card.Link>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://car-repair-devruhul.netlify.app/">Live Demo</Card.Link>
+                        <Card.Footer className="portfolio-icon">
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/car-repair-client"><i class="fa-brands fa-github"></i></Card.Link>
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://car-repair-devruhul.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></Card.Link>
                         </Card.Footer>
                     </Card.Body>
                 </Card>
@@ -38,9 +38,9 @@ const Portfolios = () => {
                             A solo tour app that allows users to create an account, log in, and add a tour to their account.
                             Users can also add a tour to their account, view their profile, and view all of the tours in their account.
                         </Card.Text>
-                        <Card.Footer>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/solo-tour-client">Github</Card.Link>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://solo-tour-devruhul-c125b.web.app/">Live Demo</Card.Link>
+                        <Card.Footer className="portfolio-icon">
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/solo-tour-client"><i class="fa-brands fa-github"></i></Card.Link>
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://solo-tour-devruhul-c125b.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></Card.Link>
                         </Card.Footer>
 
                     </Card.Body>
@@ -53,9 +53,9 @@ const Portfolios = () => {
                         <Card.Text>
                             A Dvaly app that created using react-router-dom v6, react-bootstrap, and react. All latest  v6 changes routes are used this app. If your new to v6 then you can check this repo or live link.
                         </Card.Text>
-                        <Card.Footer>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/dvaly-project">Github</Card.Link>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://dvaly-project.netlify.app/">Live Demo</Card.Link>
+                        <Card.Footer className="portfolio-icon">
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/dvaly-project"><i class="fa-brands fa-github"></i></Card.Link>
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://dvaly-project.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></Card.Link>
                         </Card.Footer>
 
                     </Card.Body>
@@ -68,9 +68,9 @@ const Portfolios = () => {
                         <Card.Text>
                             A website based on breaking bad characters. Made with react. You can search for a character and see their bio click on and hover. Data is pulled from an API.
                         </Card.Text>
-                        <Card.Footer>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/breaking-bad">Github</Card.Link>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://breaking-bad-devruhul.netlify.app/">Live Demo</Card.Link>
+                        <Card.Footer className="portfolio-icon">
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/breaking-bad"><i class="fa-brands fa-github"></i></Card.Link>
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://breaking-bad-devruhul.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></Card.Link>
                         </Card.Footer>
 
                     </Card.Body>
@@ -83,9 +83,9 @@ const Portfolios = () => {
                         <Card.Text>
                             A website that is meal related. Made with react, bootstrap. You can search for a meal and see their info when you click that item. Data is pulled from an API.
                         </Card.Text>
-                        <Card.Footer>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/meal-db-project">Github</Card.Link>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://meal-db-project-devruhul.netlify.app/">Live Demo</Card.Link>
+                        <Card.Footer className="portfolio-icon">
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/meal-db-project"><i class="fa-brands fa-github"></i></Card.Link>
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://meal-db-project-devruhul.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></Card.Link>
                         </Card.Footer>
                     </Card.Body>
                 </Card>
@@ -97,9 +97,9 @@ const Portfolios = () => {
                         <Card.Text>
                             This is a static agency related website  made with html, css and bootstrap. This website is a mockup of a real agency website. You can see the website code and live link.
                         </Card.Text>
-                        <Card.Footer>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/agency-project">Github</Card.Link>
-                            <Card.Link target="_blank" className="text-white fs-5" href="https://devruhul.github.io/agency-project/">Live Demo</Card.Link>
+                        <Card.Footer className="portfolio-icon">
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/agency-project"><i class="fa-brands fa-github"></i></Card.Link>
+                            <Card.Link target="_blank" className="text-white fs-5" href="https://devruhul.github.io/agency-project/"><i class="fa-solid fa-arrow-up-right-from-square"></i></Card.Link>
                         </Card.Footer>
 
                     </Card.Body>

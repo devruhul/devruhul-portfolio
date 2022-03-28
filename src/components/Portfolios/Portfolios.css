@@ -13,7 +13,11 @@
     padding: 40px;
     text-align: justify;
 }
-
+.portfolio-icon i{
+    font-size: 30px;
+    color: #fff;
+    margin: 10px;
+}
 /* media query for small devices */
 
 @media screen and (max-width: 320px){

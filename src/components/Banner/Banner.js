@@ -15,7 +15,7 @@ const Banner = () => {
                     </div>
                     <div className="social-media-icon mt-4">
                         <div>
-                            <a href="https://github.com/devruhul" target="_blank" rel="noopener noreferrer">  <i className="fa-brands fs-2 rounded-circle fa-github"></i></a>
+                            <a href="https://github.com/devruhul" target="_blank" rel="noopener noreferrer">  <i className="fa-brands fs-2 rounded-circle fa-github github-banner"></i></a>
 
                             <a href="https://www.linkedin.com/in/devruhul/" target="_blank" rel="noopener noreferrer">  <i className="fa-brands fs-2  rounded-circle fa-linkedin"></i></a>
 
