@@ -23,57 +23,33 @@ const About = () => {
 
                 {/* Skills Section start */}
                 <div className="skills-section">
+                    <Card className="skills-card">
+                        <Card.Body>
+                            <Card.Title>Skills</Card.Title>
+                            <Card.Text className="skills-text ">
+                                I am comfortable with the following technologies: <br />
 
-                    <p className='text-center'>HTML</p>
-                    <div className="container">
-                        <div className="skills html">90%</div>
-                    </div>
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3"></i>
+                                <i class="fa-brands fa-bootstrap"></i>
+                                <span>Tailwind</span>
+                                <i class="fa-brands fa-js"></i>
+                                <i class="fa-brands fa-react"></i>
+                                <span>Material UI,  </span>
+                                <span> Firebase</span>
+                                <i class="fa-brands fa-node"></i>
+                                <span>Express JS</span>
+                                <i class="fa-solid fa-database"></i>
 
-                    <p className='text-center'>CSS</p>
-                    <div className="container">
-                        <div className="skills css">80%</div>
-                    </div>
+                                <br />
+                                Other tools that I am regularly use: <br />
 
-                    <p className='text-center'>Bootstrap</p>
-                    <div className="container">
-                        <div className="skills bootstrap">95%</div>
-                    </div>
-
-                    <p className='text-center'>JavaScript</p>
-                    <div className="container">
-                        <div className="skills js">70%</div>
-                    </div>
-
-                    <p className='text-center'>React</p>
-                    <div className="container">
-                        <div className="skills react">90%</div>
-                    </div>
-
-                    <p className='text-center'>Firebase</p>
-                    <div className="container">
-                        <div className="skills firebase">95%</div>
-                    </div>
-
-                    <p className='text-center'>Node JS</p>
-                    <div className="container">
-                        <div className="skills node">75%</div>
-                    </div>
-
-                    <p className='text-center'>MongoDB</p>
-                    <div className="container">
-                        <div className="skills mongo">60%</div>
-                    </div>
-
-                    <p className='text-center'>Git</p>
-                    <div className="container">
-                        <div className="skills git">90%</div>
-                    </div>
-
-                    <p className='text-center'>Devtool</p>
-                    <div className="container">
-                        <div className="skills devtool">85%</div>
-                    </div>
-
+                                <i class="fa-brands fa-git-alt"></i>
+                                <i class="fa-solid fa-terminal"></i>
+                                VS Code
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                 </div>
                 {/* Skills Section end */}
             </div>

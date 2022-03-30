@@ -4,52 +4,62 @@
     grid-gap: 50px;
     background-image: linear-gradient(to right top, #e9b1d1, #ddb1d7, #cfb2db, #c0b2dd, #b2b3dd, #a9b8e1, #a0bde2, #99c2e2, #97cce5, #98d5e5, #9edde4, #a8e5e1);
 }
-.about-card{
-    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+.about-card, .skills-card{
+    /* background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
     width: 100%;
     height: 100%;
-    object-fit: cover;
     padding: 10px;
-    cursor: pointer;
 }
-.about-text{
+.about-text, .skills-text{
     padding: 10px;
     font-size: 20px;
 }
 .skills-section{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    width: auto;
+}
+.skills-text{
+    text-align: left;
+}
+.skills-text i{
+    font-size: 40px;
+    color: #c63ce285;
+    margin: 15px 15px;
+    cursor: pointer;
+    
+}
+.fa-html5:hover{
+    color: #e44b23;
+}
+.fa-css3:hover{
+    color: #264de4;
+}
+.fa-bootstrap:hover{
+    color: #563d7c;
+}
+.fa-js:hover{
+    color: #f0db4f;
+}
+.fa-react:hover{
+    color: #61dbfb;
+}
+.fa-node:hover{
+    color: #4b8f29;
+}
+.fa-database:hover{
+    color: #4b8f29;
+}
+.fa-git-alt:hover{
+    color: #f05033;
+}
+.fa-terminal:hover{
+    color:#264de4;
 }
 
-.skills-section p{
-    font-size: larger;
-    padding: 5px 0px;
-}
-
-.skills {
-    text-align: center; /* Right-align text */
-    color: white; /* White text color */
-  }
-  
-  .html { background-color: #04AA6D;} /* Green */
-  .css {background-color: #2196F3;} /* Blue */
-  .bootstrap{ background-color: #FF9800;} /* Orange */
-  .js {background-color: #6f700f;} /* Red */
-  .react {background-color: #0c9ee2;} /* Dark Grey */
-  .git{ background-color: #000;} /* Black */
-  .firebase{background-color: #f44336;} /* Red */
-  .node{ background-color: rgb(97, 62, 62);} /* Black */
-  .mongo{background-color: #ffc107;} /* Dark Orange */
-  .devtool{ background-color: #619ba5;} /* Dark Orange */
 
   /* media query for small devices */
 
   @media screen and (max-width: 320px) {
     .about-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .skills-section{
         grid-template-columns: repeat(1, 1fr);
     }
     .about-card{
@@ -68,9 +78,6 @@
         .about-container{
             grid-template-columns: repeat(1, 1fr);
         }
-        .skills-section{
-            grid-template-columns: repeat(1, 1fr);
-        }
         .about-card{
             width: 100%;
             height: 100%;
@@ -85,9 +92,6 @@
     /* Media query for big devices */
     @media screen and (min-width: 481px) and (max-width: 768px) {
         .about-container{
-            grid-template-columns: repeat(1, 1fr);
-        }
-        .skills-section{
             grid-template-columns: repeat(1, 1fr);
         }
         .about-card{
