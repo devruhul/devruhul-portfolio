@@ -39,7 +39,7 @@ export const Contact = () => {
                     <div>
                         <i className="fa-solid fa-phone contact-icon"></i>
                         <h2>Phone</h2>
-                        <a className="call-number text-warning" href="tel:01764896633">+8801764896633</a>
+                        <a className="call-number text-light" href="tel:01764896633">+8801764896633</a>
                     </div>
                     <div className="mb-5">
                         <i className="fa-solid fa-envelope-open mt-3 contact-icon"></i>
