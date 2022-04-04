@@ -38,7 +38,7 @@ const About = () => {
                                 <span>Material UI,  </span>
                                 <span> Firebase</span>
                                 <i class="fa-brands fa-node"></i>
-                                <span>Express JS</span>
+                                <span>Express</span>
                                 <i class="fa-solid fa-database"></i>
 
                                 <br />
