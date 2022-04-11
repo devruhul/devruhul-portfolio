@@ -95,7 +95,7 @@ const Portfolios = () => {
                     <Card.Body>
                         <Card.Title>Agency</Card.Title>
                         <Card.Text>
-                            This is a static agency related website  made with html, css and bootstrap. This website is a mockup of a real agency website. You can see the website code and live link.
+                            This is a static agency website made with html, css and bootstrap. This website is a mockup of a real agency website. You can see the website code and live link.
                         </Card.Text>
                         <Card.Footer className="portfolio-icon">
                             <Card.Link target="_blank" className="text-white fs-5" href="https://github.com/devruhul/agency-project"><i class="fa-brands fa-github"></i></Card.Link>

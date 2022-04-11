@@ -60,7 +60,7 @@ const Services = () => {
                         <Card.Body>
                             <Card.Title  className="fs-3 text-primary fw-bold">Consultancy and support</Card.Title>
                             <Card.Text  className="fs-5 text-justify">
-                                Got stuck somewhere and badly need help or fix? I can be your savior on any tech-related problems/bugs.
+                                Got stuck somewhere and badly need help or fix? I can be your savior on any tech-related problems or bugs.
                             </Card.Text>
                         </Card.Body>
                     </Card>
