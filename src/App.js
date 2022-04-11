@@ -26,7 +26,6 @@ function App() {
         <Route path="blogs" element={< Blogs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      {/*  */}
       {/* All components are showing footer */}
       <Footer />
     </div>
