@@ -23,7 +23,7 @@ function App() {
         <Route path="services" element={<Services />} />
         <Route path="portfolios" element={<Portfolios />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="blogs" element={< Blogs />} />
+        {/* <Route path="blogs" element={< Blogs />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       {/* All components are showing footer */}
