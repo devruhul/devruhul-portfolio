@@ -2,100 +2,49 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  background-color: rgba(0, 0, 0, 0.534);
+  /* background-color: rgba(0, 0, 0, 0.534); */
 }
 .about-card,
 .skills-card {
-  width: 100%;
-  height: 100%;
   padding: 10px;
+  border-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.about-card:hover {
+  transform: translateY(-10px);
+  border-color: aqua;
+}
+.skills-card:hover {
+  transform: translateY(10px);
+  border-color: aqua;
 }
 .about-text,
 .skills-text {
-  padding: 10px;
-  font-size: 20px;
-}
-.skills-section {
-  width: auto;
+  padding: 1rem;
+  font-size: 1.4rem;
 }
 .skills-text {
   text-align: left;
 }
-.skills-text i {
-  font-size: 40px;
-  color: #c63ce285;
-  margin: 15px 15px;
-  cursor: pointer;
-}
-.fa-html5:hover {
-  color: #e44b23;
-}
-.fa-css3:hover {
-  color: #264de4;
-}
-.fa-bootstrap:hover {
-  color: #563d7c;
-}
-.fa-js:hover {
-  color: #f0db4f;
-}
-.fa-react:hover {
-  color: #61dbfb;
-}
-.fa-node:hover {
-  color: #4b8f29;
-}
-.fa-database:hover {
-  color: #4b8f29;
-}
-.fa-git-alt:hover {
-  color: #f05033;
-}
-.fa-terminal:hover {
-  color: #264de4;
-}
-
-/* media query for small devices */
-
-@media screen and (max-width: 320px) {
+/* media query for mobile devices */
+@media screen and (max-width: 425px) {
   .about-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
-  .about-card {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .about-text {
-    font-size: 20px;
+  .about-text,
+  .skills-text {
+    padding: 0.5rem;
+    font-size: 0.2rem;
   }
 }
-/* media query for medium devices */
-@media screen and (min-width: 321px) and (max-width: 480px) {
+/* media query for tablet devices*/
+@media screen and (max-width: 768px) {
   .about-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
-  .about-card {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .about-text {
-    font-size: 20px;
-  }
-}
-
-/* Media query for big devices */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .about-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .about-card {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .about-text {
+  .about-text,
+  .skills-text {
+    padding: 10px;
     font-size: 20px;
   }
 }

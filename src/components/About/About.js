@@ -7,7 +7,7 @@ const About = () => {
     // About me and skills section start
     <div className='container mt-5'>
       <h5 className='text-center fs-2 fw-bold mt-3 mb-5'>About Me & Skills</h5>
-      <div className='about-container p-5'>
+      <div className='about-container p-1'>
         <Card className='lh-lg about-card'>
           <Card.Body>
             <Card.Title>Self-introduction</Card.Title>
