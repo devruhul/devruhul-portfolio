@@ -27,7 +27,9 @@ const Banner = () => {
                 rel='noopener noreferrer'
               >
                 {" "}
-                <i className='fa-brands fs-2 rounded-circle fa-github github-banner'></i>
+                <i className='fa-brands fs-2 rounded-circle fa-github github-banner'
+                alt="github icon"
+                ></i>
               </a>
 
               <a
@@ -36,7 +38,9 @@ const Banner = () => {
                 rel='noopener noreferrer'
               >
                 {" "}
-                <i className='fa-brands fs-2  rounded-circle fa-linkedin'></i>
+                <i className='fa-brands fs-2  rounded-circle fa-linkedin'
+                alt="linkedin icon"
+                ></i>
               </a>
 
               <a
@@ -45,7 +49,9 @@ const Banner = () => {
                 rel='noopener noreferrer'
               >
                 {" "}
-                <i className='fa-solid fs-2  rounded-circle fa-envelope'></i>{" "}
+                <i className='fa-solid fs-2  rounded-circle fa-envelope'
+                alt="email icon"
+                ></i>{" "}
               </a>
 
               <a
@@ -54,7 +60,10 @@ const Banner = () => {
                 rel='noopener noreferrer'
               >
                 {" "}
-                <i className='fa-brands fs-2 rounded-circle fa-twitter'></i>
+                <i
+                  className='fa-brands fs-2 rounded-circle fa-twitter'
+                  alt='twitter icon'
+                ></i>
               </a>
 
               <a
@@ -63,7 +72,10 @@ const Banner = () => {
                 rel='noopener noreferrer'
               >
                 {" "}
-                <i className='fa-brands fs-2 rounded-circle fa-instagram'></i>{" "}
+                <i
+                  className='fa-brands fs-2 rounded-circle fa-instagram'
+                  alt='instagram icon'
+                ></i>{" "}
               </a>
             </div>
             <div>

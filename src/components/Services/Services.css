@@ -4,7 +4,7 @@
   grid-gap: 30px;
 }
 .main-card {
-  background-color: rgba(0, 0, 0, 0.534);
+   background-image: linear-gradient(to right top, #e9b1d1, #ddb1d7, #cfb2db, #c0b2dd, #b2b3dd, #a9b8e1, #a0bde2, #99c2e2, #97cce5, #98d5e5, #9edde4, #a8e5e1);
   padding: 20px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;

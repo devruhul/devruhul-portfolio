@@ -8,9 +8,9 @@ const Header = () => {
       <Navbar
         collapseOnSelect
         className='fw-bold py-2'
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.720)" }}
+        style={{ backgroundColor: "#9edde4"}}
         expand='lg'
-        variant='dark'
+        variant='light'
       >
         <Container>
           <Navbar.Brand as={Link} to='/'>

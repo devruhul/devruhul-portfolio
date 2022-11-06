@@ -16,7 +16,12 @@ const Portfolios = () => {
 
       <div className='portfolio-container container'>
         <Card className='portfolio-card'>
-          <Card.Img className='portfolio-img' variant='top' src={carRepair} />
+          <Card.Img
+            className='portfolio-img'
+            variant='top'
+            alt='car repair website thumbnail'
+            src={carRepair}
+          />
           <Card.Body>
             <Card.Title>Car Repair App</Card.Title>
             <Card.Text>
@@ -31,21 +36,31 @@ const Portfolios = () => {
                 className='text-white fs-5'
                 href='https://github.com/devruhul/car-repair-client'
               >
-                <i className='fa-brands fa-github'></i>
+                <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
               <Card.Link
                 target='_blank'
                 className='text-white fs-5'
                 href='https://car-repair-devruhul.netlify.app/'
               >
-                <i className='fa-solid fa-arrow-up-right-from-square'></i>
+                <i
+                  className='fa-solid fa-arrow-up-right-from-square'
+                  alt='live icon'
+                ></i>
               </Card.Link>
             </Card.Footer>
           </Card.Body>
         </Card>
 
         <Card className='portfolio-card'>
-          <Card.Img className='portfolio-img' variant='top' src={soloTour} />
+          <Card.Img
+            className='portfolio-img'
+            alt='solo tour website thumbnail'
+            variant='top'
+            width='100%'
+            height='100%'
+            src={soloTour}
+          />
           <Card.Body>
             <Card.Title>Solo Tour App</Card.Title>
             <Card.Text>
@@ -60,21 +75,30 @@ const Portfolios = () => {
                 className='text-white fs-5'
                 href='https://github.com/devruhul/solo-tour-client'
               >
-                <i className='fa-brands fa-github'></i>
+                <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
               <Card.Link
                 target='_blank'
                 className='text-white fs-5'
                 href='https://solo-tour-devruhul-c125b.web.app/'
+                alt='solo tour website'
               >
-                <i className='fa-solid fa-arrow-up-right-from-square'></i>
+                <i
+                  className='fa-solid fa-arrow-up-right-from-square'
+                  alt='live icon'
+                ></i>
               </Card.Link>
             </Card.Footer>
           </Card.Body>
         </Card>
 
         <Card className='portfolio-card'>
-          <Card.Img className='portfolio-img' variant='top' src={dValy} />
+          <Card.Img
+            className='portfolio-img'
+            variant='top'
+            alt='dvaly website thumbnail'
+            src={dValy}
+          />
           <Card.Body>
             <Card.Title>DValy</Card.Title>
             <Card.Text>
@@ -89,21 +113,29 @@ const Portfolios = () => {
                 className='text-white fs-5'
                 href='https://github.com/devruhul/dvaly-project'
               >
-                <i className='fa-brands fa-github'></i>
+                <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
               <Card.Link
                 target='_blank'
                 className='text-white fs-5'
                 href='https://dvaly-project.netlify.app/'
               >
-                <i className='fa-solid fa-arrow-up-right-from-square'></i>
+                <i
+                  className='fa-solid fa-arrow-up-right-from-square'
+                  alt='live icon'
+                ></i>
               </Card.Link>
             </Card.Footer>
           </Card.Body>
         </Card>
 
         <Card className='portfolio-card'>
-          <Card.Img className='portfolio-img' variant='top' src={breakingBad} />
+          <Card.Img
+            className='portfolio-img'
+            alt='breaking bad website thumbnail'
+            variant='top'
+            src={breakingBad}
+          />
           <Card.Body>
             <Card.Title>Breaking Bad</Card.Title>
             <Card.Text>
@@ -117,21 +149,29 @@ const Portfolios = () => {
                 className='text-white fs-5'
                 href='https://github.com/devruhul/breaking-bad'
               >
-                <i className='fa-brands fa-github'></i>
+                <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
               <Card.Link
                 target='_blank'
                 className='text-white fs-5'
                 href='https://breaking-bad-devruhul.netlify.app/'
               >
-                <i className='fa-solid fa-arrow-up-right-from-square'></i>
+                <i
+                  className='fa-solid fa-arrow-up-right-from-square'
+                  alt='live icon'
+                ></i>
               </Card.Link>
             </Card.Footer>
           </Card.Body>
         </Card>
 
         <Card className='portfolio-card'>
-          <Card.Img className='portfolio-img' variant='top' src={mealDb} />
+          <Card.Img
+            className='portfolio-img'
+            variant='top'
+            alt='meal db website thumbnail'
+            src={mealDb}
+          />
           <Card.Body>
             <Card.Title>Meal DB</Card.Title>
             <Card.Text>
@@ -145,21 +185,29 @@ const Portfolios = () => {
                 className='text-white fs-5'
                 href='https://github.com/devruhul/meal-db-project'
               >
-                <i className='fa-brands fa-github'></i>
+                <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
               <Card.Link
                 target='_blank'
                 className='text-white fs-5'
                 href='https://meal-db-project-devruhul.netlify.app/'
               >
-                <i className='fa-solid fa-arrow-up-right-from-square'></i>
+                <i
+                  className='fa-solid fa-arrow-up-right-from-square'
+                  alt='live icon'
+                ></i>
               </Card.Link>
             </Card.Footer>
           </Card.Body>
         </Card>
 
         <Card className='portfolio-card'>
-          <Card.Img className='portfolio-img' variant='top' src={agency} />
+          <Card.Img
+            className='portfolio-img'
+            variant='top'
+            alt='agency website thumbnail'
+            src={agency}
+          />
           <Card.Body>
             <Card.Title>Agency</Card.Title>
             <Card.Text>
@@ -173,14 +221,17 @@ const Portfolios = () => {
                 className='text-white fs-5'
                 href='https://github.com/devruhul/agency-project'
               >
-                <i className='fa-brands fa-github'></i>
+                <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
               <Card.Link
                 target='_blank'
                 className='text-white fs-5'
                 href='https://devruhul.github.io/agency-project/'
               >
-                <i className='fa-solid fa-arrow-up-right-from-square'></i>
+                <i
+                  className='fa-solid fa-arrow-up-right-from-square'
+                  alt='live icon'
+                ></i>
               </Card.Link>
             </Card.Footer>
           </Card.Body>
