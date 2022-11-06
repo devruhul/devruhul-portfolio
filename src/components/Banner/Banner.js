@@ -25,10 +25,12 @@ const Banner = () => {
                 href='https://github.com/devruhul'
                 target='_blank'
                 rel='noopener noreferrer'
+                alt="Ruhul Amin's Github"
               >
                 {" "}
-                <i className='fa-brands fs-2 rounded-circle fa-github github-banner'
-                alt="github icon"
+                <i
+                  className='fa-brands fs-2 rounded-circle fa-github github-banner'
+                  alt='github icon'
                 ></i>
               </a>
 
@@ -36,10 +38,12 @@ const Banner = () => {
                 href='https://www.linkedin.com/in/devruhul/'
                 target='_blank'
                 rel='noopener noreferrer'
+                alt="Ruhul Amin's LinkedIn"
               >
                 {" "}
-                <i className='fa-brands fs-2  rounded-circle fa-linkedin'
-                alt="linkedin icon"
+                <i
+                  className='fa-brands fs-2  rounded-circle fa-linkedin'
+                  alt='linkedin icon'
                 ></i>
               </a>
 
@@ -47,10 +51,12 @@ const Banner = () => {
                 href='mailto:ruhulamin262001@gmail.com'
                 target='_blank'
                 rel='noopener noreferrer'
+                alt="Ruhul Amin's Gmail"
               >
                 {" "}
-                <i className='fa-solid fs-2  rounded-circle fa-envelope'
-                alt="email icon"
+                <i
+                  className='fa-solid fs-2  rounded-circle fa-envelope'
+                  alt='email icon'
                 ></i>{" "}
               </a>
 
@@ -58,6 +64,7 @@ const Banner = () => {
                 href='https://twitter.com/dev_ruhul'
                 target='_blank'
                 rel='noopener noreferrer'
+                alt="Ruhul Amin's Twitter"
               >
                 {" "}
                 <i
@@ -70,6 +77,7 @@ const Banner = () => {
                 href='https://www.instagram.com/devruhul/'
                 target='_blank'
                 rel='noopener noreferrer'
+                alt="Ruhul Amin's Instagram"
               >
                 {" "}
                 <i

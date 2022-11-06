@@ -35,6 +35,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://github.com/devruhul/car-repair-client'
+                rel='noopener noreferrer'
+                alt="car repair app's github"
               >
                 <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
@@ -42,6 +44,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://car-repair-devruhul.netlify.app/'
+                rel='noopener noreferrer'
+                alt="car repair app's live site"
               >
                 <i
                   className='fa-solid fa-arrow-up-right-from-square'
@@ -74,6 +78,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://github.com/devruhul/solo-tour-client'
+                rel='noopener noreferrer'
+                alt="solo tour app's github"
               >
                 <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
@@ -81,6 +87,7 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://solo-tour-devruhul-c125b.web.app/'
+                rel='noopener noreferrer'
                 alt='solo tour website'
               >
                 <i
@@ -112,6 +119,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://github.com/devruhul/dvaly-project'
+                rel='noopener noreferrer'
+                alt="dvaly app's github"
               >
                 <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
@@ -119,6 +128,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://dvaly-project.netlify.app/'
+                rel='noopener noreferrer'
+                alt="dvaly app's live site"
               >
                 <i
                   className='fa-solid fa-arrow-up-right-from-square'
@@ -148,6 +159,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://github.com/devruhul/breaking-bad'
+                rel='noopener noreferrer'
+                alt="breaking bad app's github"
               >
                 <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
@@ -155,6 +168,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://breaking-bad-devruhul.netlify.app/'
+                rel='noopener noreferrer'
+                alt="breaking bad app's live site"
               >
                 <i
                   className='fa-solid fa-arrow-up-right-from-square'
@@ -184,6 +199,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://github.com/devruhul/meal-db-project'
+                rel='noopener noreferrer'
+                alt="meal db app's github"
               >
                 <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
@@ -191,6 +208,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://meal-db-project-devruhul.netlify.app/'
+                rel='noopener noreferrer'
+                alt="meal db app's live site"
               >
                 <i
                   className='fa-solid fa-arrow-up-right-from-square'
@@ -220,6 +239,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://github.com/devruhul/agency-project'
+                rel='noopener noreferrer'
+                alt="agency app's github"
               >
                 <i className='fa-brands fa-github' alt='github icon'></i>
               </Card.Link>
@@ -227,6 +248,8 @@ const Portfolios = () => {
                 target='_blank'
                 className='text-white fs-5'
                 href='https://devruhul.github.io/agency-project/'
+                rel='noopener noreferrer'
+                alt="agency app's live site"
               >
                 <i
                   className='fa-solid fa-arrow-up-right-from-square'
