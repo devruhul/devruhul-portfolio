@@ -2,45 +2,21 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const Header = () => {
-  return (
-    <div>
-      <Navbar
-        collapseOnSelect
-        className='fw-bold py-2'
-        style={{ backgroundColor: "#9edde4"}}
-        expand='lg'
-        variant='light'
-      >
-        <Container>
-          <Navbar.Brand as={Link} to='/'>
-            ruhul.a()
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-          <Navbar.Collapse id='responsive-navbar-nav'>
-            <Nav className='ms-auto fs-5'>
-              <Nav.Link as={Link} to='home'>
-                Home
-              </Nav.Link>
-              <Nav.Link as={Link} to='about'>
-                About
-              </Nav.Link>
-              <Nav.Link as={Link} to='portfolios'>
-                Portfolio
-              </Nav.Link>
-              <Nav.Link as={Link} to='services'>
-                Services
-              </Nav.Link>
-              <Nav.Link as={Link} to='contact'>
-                Contact
-              </Nav.Link>
-              {/* <Nav.Link as={Link} to="blogs">Blogs</Nav.Link> */}
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </div>
-  );
-};
+const Header = () => (
+  <Navbar collapseOnSelect expand="lg" className="site-nav">
+    <Container className="nav-inner">
+      <Navbar.Brand as={Link} to="/" className="wordmark">ra<span>.</span></Navbar.Brand>
+      <Navbar.Toggle aria-controls="portfolio-navigation" aria-label="Toggle navigation" />
+      <Navbar.Collapse id="portfolio-navigation">
+        <Nav className="ms-auto nav-links">
+          <Nav.Link href="/#work">Work</Nav.Link>
+          <Nav.Link href="/#about">About</Nav.Link>
+          <Nav.Link href="/#services">Services</Nav.Link>
+          <Nav.Link as={Link} to="/contact" className="nav-contact">Get in touch <span>↗</span></Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
+);
 
 export default Header;

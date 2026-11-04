@@ -28,7 +28,7 @@ const ProjectContact = () => {
                 <li>
                   <a
                     className='main-btn custom'
-                    href='/public/ruhul_amin_frontend.pdf'
+                    href='/Ruhul_Amin_CV.pdf'
                     rel='noreferrer'
                     download
                   >

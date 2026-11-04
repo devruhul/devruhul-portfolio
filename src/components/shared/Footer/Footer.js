@@ -1,15 +1,11 @@
 import React from "react";
 
-const Footer = () => {
-  return (
-    <div className='mt-5'>
-      <p className='fs-5 mt-5'>
-        Made with{" "}
-        <span style={{ fontSize: "100%", color: "red" }}> &#10084;</span> By
-        Ruhul Amin &#169; 2022{" "}
-      </p>
-    </div>
-  );
-};
+const Footer = () => (
+  <footer className="site-footer">
+    <span>© {new Date().getFullYear()} Ruhul Amin</span>
+    <span>Designed with care · Built for the web</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+);
 
 export default Footer;

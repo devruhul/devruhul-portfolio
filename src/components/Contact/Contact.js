@@ -43,13 +43,13 @@ export const Contact = () => {
           <div className='mt-5'>
             <i className='fa-solid fa-location-dot contact-icon'></i>
             <h2>Address</h2>
-            <p>Sunamganj, Bangladesh</p>
+            <p>London, United Kingdom</p>
           </div>
           <div>
             <i className='fa-solid fa-phone contact-icon'></i>
             <h2>Phone</h2>
             <a className='call-number text-light' href='tel:01764896633'>
-              +8801764896633
+              +4407379771596
             </a>
           </div>
           <div className='mb-5'>
