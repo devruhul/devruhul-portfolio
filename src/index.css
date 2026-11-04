@@ -49,7 +49,7 @@ button, input, textarea { font: inherit; }
 .hero-index { position: absolute; top: 38px; right: 0; font: 11px 'DM Mono',monospace; color: #8a958f; }
 .hero-index span { color: #c2cbc1; margin: 0 5px; }
 .work-section { padding-top: 65px; padding-bottom: 110px; border-top: 1px solid var(--line); }
-.section-heading { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 38px; }
+.section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 35px; margin-bottom: 38px; }
 .section-heading h2 { margin: 12px 0 0; font: 700 clamp(36px, 5vw, 54px)/1.1 'Manrope',sans-serif; letter-spacing: -.055em; }
 .section-heading>p { max-width: 340px; margin-bottom: 5px; color: var(--muted); font-size: 14px; line-height: 1.7; }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); column-gap: 28px; row-gap: 54px; }
