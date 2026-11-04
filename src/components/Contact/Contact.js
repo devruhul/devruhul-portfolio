@@ -34,9 +34,11 @@ export const Contact = () => {
 
   return (
     // Contact section start
-    <div className='container mt-5 mb-5'>
-      <div className='row'>
-        <h1 className='text-center fs-2 fw-bold mb-5'>Contact Me</h1>
+    <section className='contact-page section-shell'>
+      <div className='contact-heading'>
+        <span className='section-kicker'>CONTACT · LONDON, UK</span>
+        <h1>Let’s talk about<br />what you’re building<span className='accent-dot'>.</span></h1>
+        <p>Have a project in mind, or just want to say hello? Send a note and I’ll get back to you.</p>
       </div>
       <div className='contact-container'>
         <div className='contact-details lh-lg'>
@@ -58,7 +60,6 @@ export const Contact = () => {
             <a
               className='text-light fs-5'
               rel='noreferrer'
-              target='_blank'
               href='mailto:ruhulamin262001@gmail.com'
             >
               ruhulamin262001@gmail.com
@@ -109,12 +110,12 @@ export const Contact = () => {
             </FloatingLabel>
           </Form.Group>
           <button type='submit' value='Send' className='primary-btn mt-4'>
-            Submit
+            Send message <span aria-hidden='true'>↗</span>
           </button>
         </Form>
         {/* Form end here */}
       </div>
-    </div>
+    </section>
     // Contact section ends
   );
 };

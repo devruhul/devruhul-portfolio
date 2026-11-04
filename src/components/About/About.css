@@ -1,6 +1,16 @@
-.about-container { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-.about-card, .skills-card { padding: 10px; border: 1px solid #dfe4dc; border-radius: 14px; background: #fff; transition: transform .2s ease; }
-.about-card:hover, .skills-card:hover { transform: translateY(-3px); }
-.about-text, .skills-text { padding: 1rem; color: #6e7974; font-size: 15px; line-height: 1.8; }
-.skills-text { text-align: left; }
-@media (max-width: 768px) { .about-container { grid-template-columns: 1fr; } }
+.about-section { padding-top: 90px; padding-bottom: 100px; border-top: 1px solid #dfe4dc; }
+.about-layout { display: grid; grid-template-columns: .9fr 1.1fr; gap: 18px; }
+.about-story, .skills-panel { min-height: 330px; padding: 34px; border: 1px solid #dfe4dc; border-radius: 15px; }
+.about-story { position: relative; overflow: hidden; background: #172722; color: #f7f8f4; }
+.about-mark { display: inline-grid; place-items: center; width: 43px; height: 43px; border-radius: 50%; background: #b5f36b; color: #172722; font: 800 16px 'Manrope',sans-serif; letter-spacing: -2px; }
+.about-story h3 { margin: 28px 0 14px; font: 700 28px/1.2 'Manrope',sans-serif; letter-spacing: -.045em; }
+.about-story p { max-width: 450px; color: #b7c2ba; font-size: 14px; line-height: 1.8; }
+.about-story>a { display: inline-flex; gap: 10px; margin-top: 14px; color: #b5f36b; font-size: 13px; font-weight: 600; }
+.skills-panel { background: #fff; }
+.skills-panel-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.skills-spark { color: #80b64a; font-size: 24px; }
+.skill-group { padding: 17px 0; border-top: 1px solid #e7ebe5; }
+.skill-group h3 { margin: 0 0 12px; font: 600 13px 'Manrope',sans-serif; }
+.skill-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.skill-list span { padding: 7px 11px; border-radius: 99px; background: #f1f4ee; color: #64716a; font-size: 11px; }
+@media (max-width: 700px) { .about-section { padding-top: 62px; padding-bottom: 68px; } .about-layout { grid-template-columns: 1fr; } .about-story,.skills-panel { min-height: unset; padding: 26px; } }
