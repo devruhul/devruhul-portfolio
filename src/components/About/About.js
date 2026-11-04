@@ -13,9 +13,9 @@ const About = () => {
             <Card.Title>Self-introduction</Card.Title>
             <Card.Text className='about-text'>
               I'm Ruhul, also known as Ruhul Amin, a self-learner of
-              Programming, FullStack Web Development from Sunamganj, Bangladesh.
+              programming and full-stack web development from London, United Kingdom.
               I love coding, solving problems, building amazing projects,
-              reading books & many other cool stuffs. I believe, Knowledge has
+              reading books & many other cool stuff. I believe Knowledge has
               no limits!.
             </Card.Text>
           </Card.Body>
