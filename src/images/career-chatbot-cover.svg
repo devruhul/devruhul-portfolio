@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="28" fill="#111827"/>
+  <circle cx="1064" cy="91" r="220" fill="#423B73" fill-opacity=".34"/>
+  <circle cx="120" cy="710" r="270" fill="#1B5261" fill-opacity=".34"/>
+  <rect x="92" y="77" width="1016" height="606" rx="24" fill="#192231" stroke="#354153" stroke-width="2"/>
+  <rect x="92" y="77" width="1016" height="72" rx="24" fill="#202B3B"/>
+  <path d="M92 125h1016" stroke="#354153" stroke-width="2"/>
+  <circle cx="133" cy="112" r="8" fill="#F26D72"/><circle cx="161" cy="112" r="8" fill="#F2C86D"/><circle cx="189" cy="112" r="8" fill="#78C990"/>
+  <text x="236" y="118" fill="#F2F4F8" font-family="Arial,sans-serif" font-size="20" font-weight="700">Career guidance</text>
+  <rect x="226" y="195" width="684" height="91" rx="18" fill="#2B3748"/>
+  <circle cx="270" cy="240" r="22" fill="#43566D"/><path d="M260 236h20M260 244h14" stroke="#DCE6F2" stroke-width="3" stroke-linecap="round"/>
+  <text x="311" y="235" fill="#F1F4F9" font-family="Arial,sans-serif" font-size="17">I enjoy problem solving and design.</text>
+  <text x="311" y="263" fill="#AAB6C6" font-family="Arial,sans-serif" font-size="15">What career paths could suit me?</text>
+  <rect x="256" y="319" width="796" height="260" rx="18" fill="#202D3D" stroke="#344256" stroke-width="2"/>
+  <circle cx="300" cy="362" r="22" fill="#5D54AC"/><path d="m300 346 4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z" fill="#EAE8FF"/>
+  <text x="341" y="362" fill="#D6D2FF" font-family="Arial,sans-serif" font-size="16" font-weight="700">A few directions to explore</text>
+  <text x="294" y="415" fill="#F0F3F8" font-family="Arial,sans-serif" font-size="19" font-weight="700">Product designer</text>
+  <text x="294" y="444" fill="#AAB6C6" font-family="Arial,sans-serif" font-size="15">Blend visual thinking with research and user needs.</text>
+  <path d="M294 469h700" stroke="#3B4859" stroke-width="2"/>
+  <text x="294" y="508" fill="#F0F3F8" font-family="Arial,sans-serif" font-size="19" font-weight="700">Frontend developer</text>
+  <text x="294" y="537" fill="#AAB6C6" font-family="Arial,sans-serif" font-size="15">Turn ideas into clear, interactive digital experiences.</text>
+  <rect x="226" y="608" width="826" height="43" rx="21" fill="#252F3F" stroke="#3B4859" stroke-width="2"/>
+  <text x="255" y="636" fill="#8F9CAF" font-family="Arial,sans-serif" font-size="14">Ask about skills, roles, or a learning plan…</text>
+  <rect x="993" y="615" width="29" height="29" rx="14" fill="#8A83E8"/><path d="m1002 636 11-11m0 0h-8m8 0v8" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

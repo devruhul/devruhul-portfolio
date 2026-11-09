@@ -1,23 +1,23 @@
 import React from "react";
 import "./Portfolios.css";
 import carRepair from "../../images/car-repair-project.png";
-import soloTour from "../../images/solo-tour-project.png";
 import dValy from "../../images/dvaly-project.png";
 import breakingBad from "../../images/breaking-bad-project.png";
 import mealDb from "../../images/meal-db-project.png";
-import agency from "../../images/agency-project.png";
 import parkwiseCover from "../../images/parkwise-cover.svg";
 import wakequestCover from "../../images/wakequest-cover.svg";
+import studentStayCover from "../../images/studentstay-cover.svg";
+import careerChatbotCover from "../../images/career-chatbot-cover.svg";
 
 const projects = [
+  { title: "AI Career Guidance", type: "AI & education · 2026", image: careerChatbotCover, imageAlt: "Illustrated preview of an AI career guidance chat", description: "A career guidance chatbot that uses a conversation to suggest roles, skills, and practical learning pathways.", github: "https://github.com/devruhul/career_chatbot_backend", live: "https://career-chatbot-backend.vercel.app/", stack: "Python · Flask · Gemini API · SQLite" },
+  { title: "WakeQuest", type: "Mobile app · 2026", image: wakequestCover, imageAlt: "Illustrated preview of WakeQuest alarm missions", description: "An offline-first alarm app that makes you complete a short mission before the alarm can be dismissed.", github: "https://github.com/devruhul/wakequest", stack: "Flutter · Dart · Riverpod · Hive" },
+  { title: "StudentStay UK", type: "Full-stack web app · 2026", image: studentStayCover, imageAlt: "Illustrated preview of the StudentStay UK accommodation finder", description: "A student accommodation finder with property details and saved favourites, backed by a dedicated API.", github: "https://github.com/devruhul/student-accomodation-finder", stack: "React · Vite · Express · PostgreSQL" },
   { title: "Parkwise", type: "Parking & mobility · 2026", image: parkwiseCover, imageAlt: "Illustrated preview of Parkwise, a parking reservation app", description: "A parking management app for finding nearby spaces and reserving a spot in real time.", github: "https://github.com/devruhul/parkwise", live: "https://parkwise-ruddy.vercel.app/", stack: "React · Leaflet · Tailwind CSS" },
-  { title: "WakeQuest", type: "Mobile app · 2026", image: wakequestCover, imageAlt: "Illustrated preview of WakeQuest alarm missions", description: "An offline-first alarm app that makes you complete a short mission before the alarm can be dismissed.", github: "https://github.com/devruhul/wakequest", stack: "Flutter · Dart · Riverpod" },
   { title: "Car Repair", type: "Service platform", image: carRepair, description: "A responsive booking experience that helps customers find and manage vehicle repairs.", github: "https://github.com/devruhul/car-repair-client", live: "https://car-repair-devruhul.netlify.app/", stack: "React · Firebase · Node.js" },
-  { title: "Solo Tour", type: "Travel & discovery", image: soloTour, description: "A travel platform for discovering tours, managing bookings, and planning the next trip.", github: "https://github.com/devruhul/solo-tour-client", live: "https://solo-tour-devruhul-c125b.web.app/", stack: "React · Firebase · Bootstrap" },
   { title: "DValy", type: "E-commerce concept", image: dValy, description: "A clean storefront concept with product browsing and a smooth, responsive user experience.", github: "https://github.com/devruhul/dvaly-project", live: "https://dvaly-project.netlify.app/", stack: "React · React Router · Bootstrap" },
   { title: "Breaking Bad", type: "API-powered app", image: breakingBad, description: "Explore and search character profiles in a playful interface powered by a public API.", github: "https://github.com/devruhul/breaking-bad", live: "https://breaking-bad-devruhul.netlify.app/", stack: "React · REST API · CSS" },
   { title: "Meal DB", type: "Food & recipes", image: mealDb, description: "A recipe discovery app with searchable meals and quick access to recipe details.", github: "https://github.com/devruhul/meal-db-project", live: "https://meal-db-project-devruhul.netlify.app/", stack: "React · REST API · Bootstrap" },
-  { title: "Agency", type: "Brand website", image: agency, description: "A responsive agency landing page designed to make services and next steps easy to find.", github: "https://github.com/devruhul/agency-project", live: "https://devruhul.github.io/agency-project/", stack: "HTML · CSS · Bootstrap" },
 ];
 
 const Portfolios = () => (

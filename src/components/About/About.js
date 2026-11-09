@@ -2,9 +2,10 @@ import React from "react";
 import "./About.css";
 
 const skillGroups = [
-  { label: "Frontend", skills: ["HTML", "CSS / Sass", "JavaScript", "React", "Bootstrap", "Tailwind CSS"] },
-  { label: "Backend & data", skills: ["Node.js", "Express", "MongoDB"] },
-  { label: "Tools & delivery", skills: ["Git", "Firebase", "Vercel", "Netlify", "Render", "VS Code"] },
+  { label: "Web", skills: ["JavaScript", "React", "Vite", "React Router", "Tailwind CSS", "Leaflet"] },
+  { label: "Mobile", skills: ["Flutter", "Dart", "Riverpod", "Hive", "Camera", "Google ML Kit"] },
+  { label: "Backend & AI", skills: ["Node.js", "Express", "PostgreSQL", "Python", "Flask", "Gemini API"] },
+  { label: "Data & delivery", skills: ["SQLite", "Firebase", "Git", "Vercel"] },
 ];
 
 const About = () => (
@@ -21,7 +22,7 @@ const About = () => (
         <a href="https://www.linkedin.com/in/devruhul/" target="_blank" rel="noopener noreferrer">More about my work <span>↗</span></a>
       </article>
       <div className="skills-panel">
-        <div className="skills-panel-heading"><span className="section-kicker">TOOLS I WORK WITH</span><span className="skills-spark">✳</span></div>
+        <div className="skills-panel-heading"><span className="section-kicker">TECHNOLOGIES IN MY RECENT PROJECTS</span><span className="skills-spark">✳</span></div>
         {skillGroups.map((group) => (
           <div className="skill-group" key={group.label}>
             <h3>{group.label}</h3>

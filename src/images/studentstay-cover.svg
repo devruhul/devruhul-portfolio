@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="28" fill="#EAF0E9"/>
+  <path d="M0 585h1200v175H0z" fill="#D5E2D5"/>
+  <circle cx="1011" cy="159" r="71" fill="#DDECBF"/>
+  <path d="M161 638V280l257-161 257 161v358H161Z" fill="#F8FAF5" stroke="#D5E0D3" stroke-width="8"/>
+  <path d="M132 292 418 108l287 184" stroke="#52795A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M215 333h105v115H215zM370 333h105v115H370zM525 333h105v115H525z" fill="#D7E9D0"/>
+  <path d="M215 498h105v115H215zM525 498h105v115H525z" fill="#D7E9D0"/>
+  <path d="M369 502h108v136H369z" fill="#A8C99C"/>
+  <path d="M801 0v760" stroke="#D0DCCF" stroke-width="2"/>
+  <rect x="745" y="84" width="390" height="586" rx="28" fill="#fff"/>
+  <text x="781" y="133" fill="#66866A" font-family="Arial,sans-serif" font-size="14" letter-spacing="2">STUDENTSTAY UK</text>
+  <text x="781" y="182" fill="#20342A" font-family="Arial,sans-serif" font-size="29" font-weight="700">Find a place</text>
+  <text x="781" y="217" fill="#20342A" font-family="Arial,sans-serif" font-size="29" font-weight="700">to call home.</text>
+  <rect x="781" y="241" width="317" height="53" rx="14" fill="#F2F5EF"/>
+  <circle cx="807" cy="267" r="9" stroke="#6E8871" stroke-width="3"/><path d="m814 274 8 8" stroke="#6E8871" stroke-width="3" stroke-linecap="round"/>
+  <text x="837" y="273" fill="#829187" font-family="Arial,sans-serif" font-size="15">Search student homes</text>
+  <rect x="781" y="321" width="317" height="163" rx="16" fill="#EDF2EA"/>
+  <rect x="795" y="335" width="128" height="135" rx="12" fill="#C8D9C2"/>
+  <path d="M810 445 847 394l24 29 18-20 21 42H810Z" fill="#8DAE84"/>
+  <circle cx="885" cy="365" r="12" fill="#F8FAF5"/>
+  <text x="941" y="361" fill="#20342A" font-family="Arial,sans-serif" font-size="16" font-weight="700">Bright shared flat</text>
+  <text x="941" y="388" fill="#718177" font-family="Arial,sans-serif" font-size="13">Near campus</text>
+  <text x="941" y="435" fill="#426A49" font-family="Arial,sans-serif" font-size="17" font-weight="700">£650 / month</text>
+  <rect x="941" y="449" width="116" height="25" rx="12" fill="#E2EEDB"/>
+  <text x="953" y="466" fill="#52795A" font-family="Arial,sans-serif" font-size="11">VIEW DETAILS</text>
+  <text x="781" y="531" fill="#20342A" font-family="Arial,sans-serif" font-size="17" font-weight="700">Save your favourites</text>
+  <text x="781" y="558" fill="#718177" font-family="Arial,sans-serif" font-size="14">Keep promising places close while</text>
+  <text x="781" y="580" fill="#718177" font-family="Arial,sans-serif" font-size="14">you find your next home.</text>
+  <circle cx="1061" cy="598" r="20" fill="#DDECCF"/><path d="M1061 608s-12-7-12-15a6 6 0 0 1 12-2 6 6 0 0 1 12 2c0 8-12 15-12 15Z" fill="#668A56"/>
+</svg>
