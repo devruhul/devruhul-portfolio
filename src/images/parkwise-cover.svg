@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="28" fill="#E6EFE9"/>
+  <path d="M0 150 280 0h132L72 760H0zM435 0h112L283 760h-92zM822 0h112L670 760H558zM1200 120v150L985 760H870z" fill="#D4E1DA"/>
+  <path d="m180 0 320 760M610 0l330 760M1025 0 710 760M0 445h1200M0 250h1200M0 620h1200" stroke="#F9FCFA" stroke-width="30"/>
+  <path d="M600 381c0 91-112 191-112 191S376 472 376 381a112 112 0 1 1 224 0Z" fill="#A8E267" stroke="#fff" stroke-width="12"/>
+  <circle cx="488" cy="378" r="35" fill="#18342A"/><path d="M475 366h26v40h-26z" fill="#fff"/><path d="M470 377h36" stroke="#fff" stroke-width="5"/>
+  <path d="M861 212c0 66-81 139-81 139s-81-73-81-139a81 81 0 1 1 162 0Z" fill="#F7FBF5" stroke="#B8CBBF" stroke-width="8"/>
+  <circle cx="780" cy="210" r="26" fill="#3E7458"/><path d="M770 198h20v29h-20z" fill="#fff"/><path d="M767 207h26" stroke="#fff" stroke-width="4"/>
+  <rect x="90" y="66" width="400" height="105" rx="24" fill="#fff"/>
+  <circle cx="143" cy="119" r="25" fill="#B5F36B"/><path d="M134 110h18v27h-18z" fill="#173329"/><path d="M131 119h24" stroke="#173329" stroke-width="4"/>
+  <text x="185" y="115" fill="#173329" font-family="Arial,sans-serif" font-size="25" font-weight="700">PARKWISE</text>
+  <text x="185" y="143" fill="#74847A" font-family="Arial,sans-serif" font-size="16">Find a spot. Get on your way.</text>
+  <rect x="690" y="430" width="420" height="254" rx="26" fill="#fff"/>
+  <text x="727" y="480" fill="#173329" font-family="Arial,sans-serif" font-size="22" font-weight="700">Parking nearby</text>
+  <text x="727" y="513" fill="#74847A" font-family="Arial,sans-serif" font-size="15">A simple concept preview</text>
+  <path d="M726 544h347" stroke="#E6ECE7" stroke-width="2"/>
+  <circle cx="753" cy="590" r="19" fill="#EAF4E1"/><path d="M747 579h12a7 7 0 0 1 0 14h-12v11" stroke="#56853B" stroke-width="3"/>
+  <text x="786" y="587" fill="#24382E" font-family="Arial,sans-serif" font-size="17" font-weight="700">Reserve a space</text>
+  <text x="786" y="612" fill="#74847A" font-family="Arial,sans-serif" font-size="14">Choose a nearby parking spot</text>
+  <rect x="986" y="565" width="88" height="43" rx="21" fill="#B5F36B"/><text x="1006" y="592" fill="#173329" font-family="Arial,sans-serif" font-size="14" font-weight="700">Explore</text>
+</svg>

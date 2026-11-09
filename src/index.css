@@ -60,6 +60,7 @@ button, input, textarea { font: inherit; }
 .project-number,.project-open { position: absolute; top: 14px; display: grid; place-items: center; background: rgba(247,248,244,.94); border-radius: 50%; }
 .project-number { left: 14px; width: 35px; height: 35px; font: 11px 'DM Mono',monospace; }
 .project-open { right: 14px; width: 40px; height: 40px; font-size: 20px; }
+.project-art-label { position: absolute; bottom: 14px; left: 14px; padding: 8px 11px; border-radius: 99px; background: rgba(247,248,244,.92); color: #637169; font: 9px 'DM Mono',monospace; letter-spacing: .08em; }
 .project-meta { display: flex; justify-content: space-between; gap: 10px; margin-top: 18px; color: #7b8780; font: 10px 'DM Mono',monospace; }
 .project-title-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 8px; }
 .project-title-row h3 { margin: 0; font: 700 23px 'Manrope',sans-serif; letter-spacing: -.04em; }

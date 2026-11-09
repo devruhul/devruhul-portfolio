@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="28" fill="#172522"/>
+  <circle cx="898" cy="380" r="290" fill="#223A31"/>
+  <circle cx="898" cy="380" r="225" stroke="#395C48" stroke-width="2"/>
+  <circle cx="898" cy="380" r="165" stroke="#456A50" stroke-width="2" stroke-dasharray="5 12"/>
+  <path d="M898 142a238 238 0 0 1 208 122" stroke="#B5F36B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1033 237l76 27-15-79" fill="#B5F36B"/>
+  <rect x="105" y="92" width="452" height="576" rx="48" fill="#F6F8F3"/>
+  <rect x="122" y="108" width="418" height="544" rx="36" fill="#202F29"/>
+  <rect x="264" y="125" width="134" height="19" rx="10" fill="#111B17"/>
+  <text x="160" y="202" fill="#C2D0C4" font-family="Arial,sans-serif" font-size="17" letter-spacing="3">WAKEQUEST</text>
+  <circle cx="468" cy="194" r="18" fill="#33483C"/><path d="M463 194h10M468 189v10" stroke="#D9E8D4" stroke-width="2"/>
+  <text x="160" y="325" fill="#F6F8F3" font-family="Arial,sans-serif" font-size="82" font-weight="300">07:00</text>
+  <text x="163" y="360" fill="#9DAEA1" font-family="Arial,sans-serif" font-size="17">MONDAY · 12 MAY</text>
+  <rect x="158" y="404" width="346" height="151" rx="23" fill="#2D4035"/>
+  <circle cx="203" cy="449" r="22" fill="#B5F36B"/><path d="M203 436v15l10 6" stroke="#1D3025" stroke-width="3" stroke-linecap="round"/>
+  <text x="241" y="448" fill="#F5F7F2" font-family="Arial,sans-serif" font-size="18" font-weight="700">Morning mission</text>
+  <text x="183" y="496" fill="#B5F36B" font-family="Arial,sans-serif" font-size="16">Solve a quick challenge to wake up</text>
+  <rect x="181" y="518" width="300" height="5" rx="3" fill="#4D6654"/><rect x="181" y="518" width="120" height="5" rx="3" fill="#B5F36B"/>
+  <rect x="158" y="576" width="346" height="51" rx="25" fill="#B5F36B"/><text x="256" y="608" fill="#1D3025" font-family="Arial,sans-serif" font-size="16" font-weight="700">View my missions</text>
+  <text x="720" y="349" fill="#B5F36B" font-family="Arial,sans-serif" font-size="21" letter-spacing="4">MAKE MORNINGS</text>
+  <text x="720" y="402" fill="#F5F7F2" font-family="Arial,sans-serif" font-size="48" font-weight="700">A little more</text>
+  <text x="720" y="458" fill="#F5F7F2" font-family="Arial,sans-serif" font-size="48" font-weight="700">intentional.</text>
+  <text x="720" y="510" fill="#A9B8AD" font-family="Arial,sans-serif" font-size="18">An alarm app with a mission</text>
+  <text x="720" y="539" fill="#A9B8AD" font-family="Arial,sans-serif" font-size="18">before the snooze.</text>
+  <circle cx="1090" cy="621" r="11" fill="#B5F36B"/><circle cx="1131" cy="621" r="5" fill="#64816E"/><circle cx="1154" cy="621" r="5" fill="#64816E"/>
+</svg>
